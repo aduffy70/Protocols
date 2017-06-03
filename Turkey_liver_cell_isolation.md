@@ -52,10 +52,7 @@ Adapted from Fraslin Cell Isolation Protocol
 ## Definitive media
 1ug/mL glucagon, 100ug/mL transferrin, 0.4ug/mL dexamethasone
 
-	* 23.25mL Supplemented William’s E media
-	* 150uL glucagon (stock = 200ug/mL)
-	* 6mL transferrin (stock = 500ug/mL)
-	* 600uL dexamethasone (stock = 20ug/mL)
-
-
-test
+  * 23.25mL Supplemented William’s E media
+  * 150uL glucagon (stock = 200ug/mL)
+  * 6mL transferrin (stock = 500ug/mL)
+  * 600uL dexamethasone (stock = 20ug/mL)
