@@ -32,9 +32,9 @@ Adapted from Fraslin Cell Isolation Protocol
 
   * 500mL “Standard” HEPES buffer
   * Filter-sterilize.
-  * (We don’t add EDTA anymore so HEPES buffer #1 is just “Standard” HEPES buffer)
+  * (We don’t add EDTA anymore so HEPES buffer 1 is just “Standard” HEPES buffer)
 
-## HEPES buffer #2
+## HEPES buffer 2
 25mM HEPES, 5mM CaCl2, ~15U/mL collagenase type 2, pH 7.5
 
   * 300mg CaCl2 in 500mL “Standard” HEPES buffer
@@ -47,7 +47,7 @@ Adapted from Fraslin Cell Isolation Protocol
 
   * 250 mL William’s E media
   * 2.5mL penicillin/streptomycin
-	* 2.5mg insulin
+  * 2.5mg insulin
 
 ## Definitive media
 1ug/mL glucagon, 100ug/mL transferrin, 0.4ug/mL dexamethasone
