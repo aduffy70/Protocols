@@ -25,11 +25,11 @@ Do not use for PCR products less than 300bp.
 ### PEG for purification of PCR products
 20% PEG, 2.5 M NaCl
 
-* For 50mL (enough for ~1000 PCR reactions) mix the following in a 100mL Pyrex bottle:
-  * 10.0 g PolyEthylene Glycol 8000 (MW = 6000 - 8000 is fine)
-  * 7.3 g NaCl
-  * ddH2O up to ~45 mL
-* Stir with magnetic rod on lowest heat. PEG may not completely dissolve depending on how much water you’ve added, but after 20-30 minutes, fill with  ddH2O up to 50 mL and mix until completely dissolved.
-* Store in the refrigerator.
+  * For 50mL (enough for ~1000 PCR reactions) mix the following in a 100mL Pyrex bottle:
+    * 10.0 g PolyEthylene Glycol 8000 (MW = 6000 - 8000 is fine)
+    * 7.3 g NaCl
+    * ddH2O up to ~45 mL
+  * Stir with magnetic rod on lowest heat. PEG may not completely dissolve depending on how much water you’ve added, but after 20-30 minutes, fill with  ddH2O up to 50 mL and mix until completely dissolved.
+  * Store in the refrigerator.
 
 Note- This recipe is good for PCR products larger than 300bp. Increasing PEG or NaCl concentrations will allow smaller products.
