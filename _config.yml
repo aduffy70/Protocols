@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Protocols
 description: Lab protocols and recipes
-baseurl: "/Protocols" # the subpath of your site, e.g. /blog
-url: "https://aduffy70.github.io"
+BASE_PATH: "https://aduffy70.github.io/Protocols" # the subpath of your site, e.g. /blog
 image_path: "/assets/"
 
 # Build settings
