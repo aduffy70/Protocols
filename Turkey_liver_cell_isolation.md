@@ -43,7 +43,7 @@ Adapted from Fraslin Cell Isolation Protocol
   * Add 25mg collagenase just before use.
 
 ## Supplemented William’s E media
-100U/mL penicillin/streptomycin, 10ug/mL insulin, 5% serum
+100U/mL penicillin/streptomycin, 10ug/mL insulin
 
   * 250 mL William’s E media
   * 2.5mL penicillin/streptomycin
