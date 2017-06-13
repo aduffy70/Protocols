@@ -23,21 +23,21 @@ Adapted from Fraslin Cell Isolation Protocol
 ## “Standard” HEPES buffer
 25mM HEPES, pH 7.5
 
-  * 5.96g HEPES in ~900mL water
+  * 4.2g HEPES in ~650mL water
   * Raise pH to 7.5 with NaOH.
-  * Add water to 1L.
+  * Add water to 700mL.
 
 ## HEPES buffer 1
 25mM HEPES, 0.25mM EDTA, pH 7.5
 
-  * 500mL “Standard” HEPES buffer
+  * 350mL “Standard” HEPES buffer
   * Filter-sterilize.
   * (We don’t add EDTA anymore so HEPES buffer 1 is just “Standard” HEPES buffer)
 
 ## HEPES buffer 2
-25mM HEPES, 5mM CaCl2, ~15U/mL collagenase type 2, pH 7.5
+25mM HEPES, 5mM CaCl2, ~21U/mL collagenase type 2, pH 7.5
 
-  * 300mg CaCl2 in 500mL “Standard” HEPES buffer
+  * 210mg CaCl2 in 350mL “Standard” HEPES buffer
   * Mix to dissolve completely.
   * Filter-sterilize.
   * Add 25mg collagenase just before use.
