@@ -1,3 +1,9 @@
+~~~
+layout: page
+title: QIAquick purification of PCR products
+permalink: QIAquick_purification_of_PCR_products
+~~~
+
 # QIAquick Purification of PCR products
 Modified from Qiagen's protocol with optimizations for low concentration PCR products
 

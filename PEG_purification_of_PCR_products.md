@@ -1,4 +1,9 @@
-# PEG Purification of PCR products
+~~~
+layout: page
+title: PEG purification of PCR products
+permalink: PEG_purification_of_PCR_products
+~~~
+
 Modified from a protocol by Travis Glenn at Univ. South Carolina
 
 Do not use for PCR products less than 300bp.

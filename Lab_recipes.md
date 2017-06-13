@@ -1,4 +1,8 @@
-# Lab Recipes
+~~~
+layout: page
+title: Lab recipes
+permalink: Lab-recipes
+~~~
 
 ## TBE solution for minigels
 For 5X stock solution:

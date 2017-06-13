@@ -1,4 +1,9 @@
-# Turkey liver cell isolation protocol
+~~~
+layout: page
+title: Turkey liver cell isolation
+permalink: Turkey_liver_cell_isolation
+~~~
+
 Adapted from Fraslin Cell Isolation Protocol
 
 1. Warm to 37C: HEPES buffer 1, HEPES buffer 2, “Standard” HEPES buffer, Supplemented William’s E medium.
