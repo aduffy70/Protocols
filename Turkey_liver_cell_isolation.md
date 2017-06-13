@@ -1,7 +1,7 @@
 ~~~
 layout: page
 title: Turkey liver cell isolation
-permalink: Turkey_liver_cell_isolation
+permalink: Turkey-liver-cell-isolation
 ~~~
 
 Adapted from Fraslin Cell Isolation Protocol

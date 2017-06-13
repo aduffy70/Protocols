@@ -1,7 +1,7 @@
 ~~~
 layout: page
 title: QIAquick purification of PCR products
-permalink: QIAquick_purification_of_PCR_products
+permalink: QIAquick-purification-of-PCR-products
 ~~~
 
 # QIAquick Purification of PCR products

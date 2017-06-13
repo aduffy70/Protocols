@@ -1,7 +1,7 @@
 ~~~
 layout: page
 title: PEG purification of PCR products
-permalink: PEG_purification_of_PCR_products
+permalink: PEG-purification-of-PCR-products
 ~~~
 
 Modified from a protocol by Travis Glenn at Univ. South Carolina
