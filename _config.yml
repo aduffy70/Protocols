@@ -16,6 +16,7 @@
 title: Protocols
 description: Lab protocols and recipes
 baseurl: "/Protocols" # the subpath of your site, e.g. /blog
+url: "https://aduffy70.github.io"
 image_path: "/assets/"
 
 # Build settings
@@ -26,4 +27,3 @@ permalink: /:title/
 exclude:
   - Gemfile
   - Gemfile.lock
-
