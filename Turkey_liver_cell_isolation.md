@@ -7,7 +7,7 @@ permalink: Turkey-liver-cell-isolation
 Adapted from Fraslin Cell Isolation Protocol
 
 1. Warm to 37C: HEPES buffer 1, HEPES buffer 2, “Standard” HEPES buffer, Supplemented William’s E medium.
-2. Inject Heparin into wing vein. ~1750U/kg = 1mL Heparin (4400U/mL) for a 2.2kg bird.
+2. Inject Heparin into wing vein. ~875U/kg = 0.5mL Heparin (4400U/mL) for a 2.2kg bird.
 3. Insert catheter into the portal vein and place two sutures to prevent backflow along the vein and back down the intersecting vein. Snip between liver and heart to allow outflow.
 4. Perfuse (17ml/min) with HEPES buffer 1 until blanched (~250mL).
 5. Perfuse with HEPES buffer 2 until digested (~300mL).
@@ -41,12 +41,12 @@ Adapted from Fraslin Cell Isolation Protocol
   * (We don’t add EDTA anymore so HEPES buffer 1 is just “Standard” HEPES buffer)
 
 ## HEPES buffer 2
-25mM HEPES, 5mM CaCl2, ~21U/mL collagenase type 2, pH 7.5
+25mM HEPES, 5mM CaCl2, ~13U/mL collagenase type 2, pH 7.5
 
   * 210mg CaCl2 in 350mL “Standard” HEPES buffer
   * Mix to dissolve completely.
   * Filter-sterilize.
-  * Add 25mg collagenase just before use.
+  * Add 15mg collagenase (~300U/mg) just before use.
 
 ## Supplemented William’s E media
 100U/mL penicillin/streptomycin, 10ug/mL insulin
