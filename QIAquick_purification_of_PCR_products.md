@@ -1,10 +1,9 @@
-~~~
+---
 layout: page
 title: QIAquick purification of PCR products
-permalink: QIAquick-purification-of-PCR-products
-~~~
+categories: protocol
+---
 
-# QIAquick Purification of PCR products
 Modified from Qiagen's protocol with optimizations for low concentration PCR products
 
 Works for products >100bp. Products as small as 50bp may work but concentrations will be reduced.
@@ -27,9 +26,9 @@ Works for products >100bp. Products as small as 50bp may work but concentrations
 16. Discard column. Purified PCR product is in the 1.5mL tube.
 17. Quantify on Nanodrop with EB as blank.
 
-## Recipes
+# Recipes
 
-### 3M Sodium Acetate
+## 3M Sodium Acetate
 
 Combine in 15mL Falcon tube:
   * 1.23g Sodium Acetate (m.w. = 82.03g/mol)

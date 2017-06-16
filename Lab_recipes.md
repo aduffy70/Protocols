@@ -1,10 +1,10 @@
-~~~
+---
 layout: page
 title: Lab recipes
-permalink: Lab-recipes
-~~~
+categories: protocol
+---
 
-## TBE solution for minigels
+# TBE solution for minigels
 For 5X stock solution:
 
   * 27g Tris base
@@ -16,7 +16,7 @@ Mix vigorously with a stir bar. May take 30 minutes or more to dissolve. Heating
 
 Autoclave to prevent crystallization.
 
-## Agarose gel for minigels
+# Agarose gel for minigels
 For 1% agarose, 1X TBE gels (enough for 4 gels):
 
   * 1.3g agarose
@@ -30,7 +30,7 @@ Load: 2uL sample +1uL loading dye per well. (2uL ladder)
 
 Run: ~30 minutes @ 100V
 
-## Agarose gel for gel purification
+# Agarose gel for gel purification
 For 0.7% agarose, 1X TBE gel (enough for 1 gel):
 
   * 0.5g agarose
@@ -48,7 +48,7 @@ Load: 25uL sample + 1uL loading dye or 50uL sample + 2uL loading dye. (5uL ladde
 
 Run: 2.5-3 hours @ 50V (start with fresh well buffer)
 
-## Ampicillin stock solution for TA cloning
+# Ampicillin stock solution for TA cloning
 For 100mg/mL solution:
 
   * 500mg Ampicillin sodium salt in
@@ -56,7 +56,7 @@ For 100mg/mL solution:
 
 Store in refrigerator.
 
-## IPTG stock solution for TA cloning
+# IPTG stock solution for TA cloning
 For 100 mM solution:
 
   * 119.2 mg isopropyl β-D-thiogalactopyranoside (IPTG)
@@ -64,7 +64,7 @@ For 100 mM solution:
 
 Store in -20 freezer.
 
-## LB +Amp Agar plates for TA cloning with Qiagen EZ Competent Cells
+# LB +Amp Agar plates for TA cloning with Qiagen EZ Competent Cells
 For 250mL (10 plates):
 
 Combine in autoclavable 500mL (or larger) bottle:
@@ -101,7 +101,7 @@ This recipe yields final concentrations recommended for Qiagen EZ Competent Cell
   * 50uM IPTG
   * 80ug/mL X-gal
 
-## 3M Sodium Acetate Stock for Qiagen Gel Extraction
+# 3M Sodium Acetate Stock for Qiagen Gel Extraction
 
   * 1.23g Sodium Acetate (m.w. = 82.03g/mol)
   * 5mL ddH2O

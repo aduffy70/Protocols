@@ -2,13 +2,14 @@
 layout: default
 ---
 
-This is a test!
 <ul class="protocols">
-  {% for page in site.pages %}
-     <li>
-         <a href="{{ page.url }}">
-         	<h3>{{ page.title }}</h3>
-         </a>
+  {% for p in site.pages %}
+    {% if p.categories contains 'protocol' %}
+      <li>
+        <a href="{{ site.base_url }}{{ p.url }}">
+          <h3>{{ p.title }}</h3>
+        </a>
       </li>
-   {% endfor %}
+    {% endif %}
+  {% endfor %}
 </ul>

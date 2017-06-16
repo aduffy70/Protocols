@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <p class="post-meta-path">atom ~/Dropbox/Protocols/{{ page.path }}</p>
+    <p class="post-meta-path"><a href=https://github.com/aduffy70/Protocols/blob/master/{{ page.path }}>Revision history on GitHub</a></p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

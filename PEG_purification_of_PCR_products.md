@@ -1,8 +1,8 @@
-~~~
+---
 layout: page
 title: PEG purification of PCR products
-permalink: PEG-purification-of-PCR-products
-~~~
+categories: protocol
+---
 
 Modified from a protocol by Travis Glenn at Univ. South Carolina
 
@@ -25,9 +25,9 @@ Do not use for PCR products less than 300bp.
 15. Turn off heatblock/waterbath
 16. Quantify on Nanodrop.
 
-## Recipes
+# Recipes
 
-### PEG for purification of PCR products
+## PEG for purification of PCR products
 20% PEG, 2.5 M NaCl
 
   * For 50mL (enough for ~1000 PCR reactions) mix the following in a 100mL Pyrex bottle:
