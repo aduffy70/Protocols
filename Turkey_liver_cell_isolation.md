@@ -7,8 +7,8 @@ categories: protocol
 Adapted from Fraslin Cell Isolation Protocol
 
 1. Warm to 37C: HEPES buffer 1, HEPES buffer 2, “Standard” HEPES buffer, Supplemented William’s E medium.
-2. Inject Heparin into wing vein. ~875U/kg = 0.5mL Heparin (4400U/mL) for a 2.2kg bird.
-3. Insert catheter into the portal vein and place two sutures to prevent backflow along the vein and back down the intersecting vein. Snip between liver and heart to allow outflow.
+2. Insert catheter into the portal vein and place two sutures to prevent backflow along the vein and back down the intersecting vein. Snip between liver and heart to allow outflow.
+3. Add 0.5mL Heparin (~875U/kg = 0.5mL Heparin (4400U/mL) for a 2.2kg bird) to a 50mL aliquot of HEPES Buffer 1. Perfuse (17mL/min).
 4. Perfuse (17ml/min) with HEPES buffer 1 until blanched (~250mL).
 5. Perfuse with HEPES buffer 2 until digested (~300mL).
 6. Excise the liver, transfer to Supplemented William’s E medium (50mL), and move to the sterile hood for remaining steps.
