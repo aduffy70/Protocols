@@ -6,15 +6,14 @@ categories: protocol
 
 Based on instructions from Hardeep Rai
 
-Equipment and supplies are in the Mock lab.
+Equipment and supplies are in the Mock lab
+  * In the drawer by the Qubit:
+    * Buffer solution (clear plastic jar)
+    * Reagent/dye BR (light sensitive in 1.5mL tubes  in white freezer box)
+    * Equipment manuals
+  * In the fridge in the 1st bay:
+    * BR standards (low & high) (in 1.5ml tubes in a white freezer box)
 
-In the drawer by the Qubit:
-  * Buffer solution (clear plastic jar)
-  * Reagent/dye BR (light sensitive in 1.5mL tubes  in white freezer box)
-  * Equipment manuals
-
-In the fridge in the 1st bay:
-  * BR standards (low & high) (in 1.5ml tubes in a white freezer box)
 
 1. Label clear 0.7mL tubes:
     * One for each sample
