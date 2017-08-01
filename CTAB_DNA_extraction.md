@@ -6,28 +6,28 @@ categories: protocol
 Based on Soltis lab protocol from Doyle and Doyle, 1987 and Cullings 1992
 
 1. Prepare CTAB buffer and add PVP and B-mercaptoethanol.
-2. Weigh out 10-20mg of silica-dried plant tissue or 80-100mg fresh tissue.
-3. Grind tissue.
-4. Add 500uL of CTAB buffer and grind a bit more.  Transfer to a labeled 1.5uL tube.
-5. Incubate samples at 55°C for 1hr to overnight.  Longer times and periodic shaking give higher yield.
-6. Add 500uL of 24:1 Chloroform:Iso Amyl Alcohol and mix well by shaking tubes by hand for 5 minutes.
-7. Centrifuge for 10-15 minutes at maximum speed.  Following centrifugation you should have three layers: the top aqueous phase, the middle debris and proteins, and the bottom chloroform.  Go on to the next step quickly so the layers to not remix.
-8. Pipette off the top aqueous layer taking care not to suck up any of the debris or chloroform.
-9. Place the aqueous layer in a new labeled 1.5uL tube.  Discard the debris and chloroform.
-10. Estimate the volume of the aqueous layer.
-11. Add 0.08 volumes of cold 7.5M ammonium acetate.
-12. Add 0.54 volumes (using the combined aqueous + ammonium acetate volume) of cold isopropanol (2-propanol).
-13. Mix well by shaking tubes by hand for 5 minutes.
-14. Let sit in the freezer for 15 minutes to overnight.  Longer times give higher yield.
-15. Centrifuge for 3 minutes at maximum speed.
-16. Pipette off the liquid, being careful not to lose the pellet with your DNA.
-17. Add 700uL of cold 70% Ethanol and mix by vortexing briefly.
-18. Centrifuge 1 minute at maximum speed.
-19. Pipette off the liquid, being careful not to lose the pellet with your DNA.
-20. Add 700uL of cold 95% Ethanol and mix by vortexing briefly.
-21. Pipette off the liquid, being careful not to lose the pellet with your DNA.
-22. Dry the pellet in the spin-vac for 20 minutes or until all traces (visible or smell) of ethanol are gone.
-23. Resuspend samples with 50-100uL of TE buffer. Allow to resuspend for 1 hour at 55°C or overnight in the refrigerator before quantifying.
+1. Weigh out 10-20mg of silica-dried plant tissue or 80-100mg fresh tissue.
+1. Grind tissue.
+1. Add 500uL of CTAB buffer and grind a bit more.  Transfer to a labeled 1.5uL tube.
+1. Incubate samples at 55°C for 1hr to overnight.  Longer times and periodic shaking give higher yield.
+1. Add 500uL of 24:1 Chloroform:Iso Amyl Alcohol and mix well by shaking tubes by hand for 5 minutes.
+1. Centrifuge for 10-15 minutes at maximum speed.  Following centrifugation you should have three layers: the top aqueous phase, the middle debris and proteins, and the bottom chloroform.  Go on to the next step quickly so the layers to not remix.
+1. Pipette off the top aqueous layer taking care not to suck up any of the debris or chloroform.
+1. Place the aqueous layer in a new labeled 1.5uL tube.  Discard the debris and chloroform.
+1. Estimate the volume of the aqueous layer.
+1. Add 0.08 volumes of cold 7.5M ammonium acetate.
+1. Add 0.54 volumes (using the combined aqueous + ammonium acetate volume) of cold isopropanol (2-propanol).
+1. Mix well by shaking tubes by hand for 5 minutes.
+1. Let sit in the freezer for 15 minutes to overnight.  Longer times give higher yield.
+1. Centrifuge for 3 minutes at maximum speed.
+1. Pipette off the liquid, being careful not to lose the pellet with your DNA.
+1. Add 700uL of cold 70% Ethanol and mix by vortexing briefly.
+1. Centrifuge 1 minute at maximum speed.
+1. Pipette off the liquid, being careful not to lose the pellet with your DNA.
+1. Add 700uL of cold 95% Ethanol and mix by vortexing briefly.
+1. Pipette off the liquid, being careful not to lose the pellet with your DNA.
+1. Dry the pellet in the spin-vac for 20 minutes or until all traces (visible or smell) of ethanol are gone.
+1. Resuspend samples with 50-100uL of TE buffer. Allow to resuspend for 1 hour at 55°C or overnight in the refrigerator before quantifying.
 
 # Recipes
 

@@ -30,8 +30,8 @@ Each reaction contains:
 | 0%   | 0 / 0   | 0  | 60 |
 
 1. Make a master mix containing the pyruvate, DPNH, and balanced phosphate buffer. Make enough to aliquot into 12 wells per sample and 12 wells for a control. Aliquot into a 96 well plate.
-2. Make phenol dilutions in separate wells, add sample (or media for the controls) to the phenol dilutions, mix, incubate for 5 minutes and then transfer to the wells with the master mix.
-3. Visualize at 340nm. Record at least 3 absorbance measurements at least 1 minute apart.
+1. Make phenol dilutions in separate wells, add sample (or media for the controls) to the phenol dilutions, mix, incubate for 5 minutes and then transfer to the wells with the master mix.
+1. Visualize at 340nm. Record at least 3 absorbance measurements at least 1 minute apart.
 
 
 # RECIPES

@@ -9,21 +9,21 @@ Modified from a protocol by Travis Glenn at Univ. South Carolina
 Do not use for PCR products less than 300bp.
 
 1. Set heatblock/water bath to 37C.
-2. Run 2 uL of PCR product on a minigel to ensure the reaction worked.
-3. Add 50 uL (for 50uL PCR reactions) of PEG to a 0.7 mL tube. Add the remainder of the PCR product and mix by pipetting up & down.
-4. Incubate at 37C for 15 minutes.
-5. Centrifuge (max speed) 15 minutes.
-6. Pipette off the liquid and discard it.  Careful--the pellet probably won’t be visible.
-7. Add 125 uL ice cold 80% EtOH
-8. Centrifuge 2 minutes.
-9. Pipette off the liquid and discard it.
-10. Repeat steps 7-9.
-11. Dry 15-30 minutes in a speedvac if available--otherwise air-dry, spinning briefly every few minutes to ensure the final droplet doesn’t “climb” the tube as it evaporates). There should be no trace of liquid or EtOH odor.
-12. Spin briefly to ensure DNA is at the bottom of the tube.
-13. Add 25uL TE buffer (10mM Tris, 0.1mM EDTA recipe). Mix by pipetting.
-14. Incubate at 37C for 5 minutes.
-15. Turn off heatblock/waterbath
-16. Quantify on Nanodrop.
+1. Run 2 uL of PCR product on a minigel to ensure the reaction worked.
+1. Add 50 uL (for 50uL PCR reactions) of PEG to a 0.7 mL tube. Add the remainder of the PCR product and mix by pipetting up & down.
+1. Incubate at 37C for 15 minutes.
+1. Centrifuge (max speed) 15 minutes.
+1. Pipette off the liquid and discard it.  Careful--the pellet probably won’t be visible.
+1. Add 125 uL ice cold 80% EtOH
+1. Centrifuge 2 minutes.
+1. Pipette off the liquid and discard it.
+1. Repeat steps 7-9.
+1. Dry 15-30 minutes in a speedvac if available--otherwise air-dry, spinning briefly every few minutes to ensure the final droplet doesn’t “climb” the tube as it evaporates). There should be no trace of liquid or EtOH odor.
+1. Spin briefly to ensure DNA is at the bottom of the tube.
+1. Add 25uL TE buffer (10mM Tris, 0.1mM EDTA recipe). Mix by pipetting.
+1. Incubate at 37C for 5 minutes.
+1. Turn off heatblock/waterbath
+1. Quantify on Nanodrop.
 
 # Recipes
 
