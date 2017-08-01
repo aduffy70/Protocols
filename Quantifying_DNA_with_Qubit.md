@@ -17,9 +17,9 @@ In the fridge in the 1st bay:
   * BR standards (low & high) (in 1.5ml tubes in a white freezer box)
 
 1. Label clear 0.7mL tubes:
-  * One for each sample
-  * One for the low standard
-  * One for the high standard.
+    * One for each sample
+    * One for the low standard
+    * One for the high standard.
 1. Mix 200uL of working solution for each sample, plus extra for pipette loss (199uL buffer solution : 1uL reagent/dye BR)
 1. To each labeled sample tube add 198uL working solution + 2uL vortexed sample
 1. To each labeled standard tube add 190uL working solution and 10uL vortexed standard
@@ -29,6 +29,6 @@ In the fridge in the 1st bay:
 1. Power on the Qubit by pressing ‘Go’
 1. Select ‘dsDNA BR’
 1. Follow the onscreen instructions to calibrate with the standards and measure the samples.
-  * After reading the first sample, arrow down to tell the machine we want the concentration and give it the amount of sample used (2uL)
-  * The machine provides readings in ug/mL which is equivalent to ng/uL.
+    * After reading the first sample, arrow down to tell the machine we want the concentration and give it the amount of sample used (2uL)
+    * The machine provides readings in ug/mL which is equivalent to ng/uL.
 1. When finished, press Home to power down the Qubit. Dispose of tubes as normal lab waste
