@@ -14,7 +14,7 @@ Adapted from Fraslin Cell Isolation Protocol
 1. Excise the liver, transfer to Supplemented William’s E media (~100mL), and move to the sterile hood for remaining steps.
 1. Release hepatocytes by gently breaking up the liver with a scalpel.
 1. Filter through cheesecloth to separate the undigested tissue. Pour ~100mL Supplemented William’s E medium over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
-1. Filter with nylon-mesh filters of pore sizes 100, and 70um to eliminate cell aggregates (turkey hepatocyctes are ~18uM--3 times smaller than mammalian hepatocytes).
+1. Filter with nylon-mesh filters of pore sizes 100, and 70um, and 40um to eliminate cell aggregates (turkey hepatocyctes are ~18uM--3 times smaller than mammalian hepatocytes).
 1. Place cells in 37C water bath to sediment for 20 min. Keep the supernatant. Discard the sediment.
 1. Pellet hepatocytes and red blood cells by low-speed centrifugation (2 minutes @ 100g). Discard supernatant.
 1. Gently swirl to resuspend cell pellet (while leaving red blood cells adhered to the tube--they stick more securely than the hepatocytes). Transfer hepatocytes to a new tube and discard old tube with red blood cells. Adjust volume of hepatocytes to ~10mL with Supplemented Willam's E media.
