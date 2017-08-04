@@ -26,9 +26,11 @@ Adapted from Fraslin Cell Isolation Protocol
 # RECIPES
 
 ## “Standard” HEPES buffer
-25mM HEPES, pH 7.5
+25mM HEPES, pH 7.5 in 1X PBS
 
-  * 4.2g HEPES in ~650mL water
+  * 70mL 10X PBS
+  * water to ~650mL
+  * 4.2g HEPES
   * Raise pH to 7.5 with NaOH.
   * Add water to 700mL.
 
