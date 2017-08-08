@@ -42,12 +42,12 @@ Adapted from Fraslin Cell Isolation Protocol
   * Filter-sterilize.
 
 ## HEPES buffer 2
-25mM HEPES, 5mM CaCl2, ~10U/mL collagenase type 4, pH 7.5
+25mM HEPES, 5mM CaCl2, ~15U/mL collagenase type 4, pH 7.5
 
   * 210mg CaCl2 in 350mL “Standard” HEPES buffer
   * Mix to dissolve completely.
   * Filter-sterilize.
-  * Add 9mg collagenase (~375U/mg) just before use.
+  * Add 14mg collagenase (~375U/mg) just before use.
 
 ## Supplemented William’s E media
 100U/mL penicillin/streptomycin, 10ug/mL insulin
