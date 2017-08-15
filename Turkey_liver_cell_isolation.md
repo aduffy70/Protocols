@@ -9,15 +9,15 @@ Adapted from Fraslin Cell Isolation Protocol
 1. Warm to 37C: HEPES buffer 1, HEPES buffer 2, “Standard” HEPES buffer, Supplemented William’s E media.
 1. Insert catheter into the portal vein and place two sutures to prevent backflow along the vein and back down the intersecting vein. Snip between liver and heart to allow outflow.
 1. Add 0.5-1.0mL Heparin (~875U/kg = 0.5mL Heparin (4400U/mL) for a 2.2kg bird) to a 50mL aliquot of HEPES Buffer 1. Perfuse (17mL/min) to start blanching while preventing clotting.
-1. Perfuse (17ml/min) with HEPES buffer 1 until blanched (~50-150mL).
+1. Perfuse (25ml/min) with HEPES buffer 1 until blanched (~50-150mL).
 1. Perfuse with HEPES buffer 2 until digested (~300mL).
 1. Excise the liver, transfer to Supplemented William’s E media (~100mL), and move to the sterile hood for remaining steps.
 1. Release hepatocytes by gently breaking up the liver with a scalpel.
-1. Filter through cheesecloth to separate the undigested tissue. Pour ~100mL Supplemented William’s E medium over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
+1. Filter through cheesecloth to separate the undigested tissue. Pour ~75mL Supplemented William’s E medium over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
 1. Filter with nylon-mesh filters of pore sizes 100, and 70um, and 40um to eliminate cell aggregates (turkey hepatocyctes are ~18uM--3 times smaller than mammalian hepatocytes).
-1. Place cells in 37C water bath to sediment for 20 min. Keep the supernatant. Discard the sediment.
-1. Pellet hepatocytes and red blood cells by low-speed centrifugation (2 minutes @ 100g). Discard supernatant.
-1. Gently swirl to resuspend cell pellet (while leaving red blood cells adhered to the tube--they stick more securely than the hepatocytes). Transfer hepatocytes to a new tube and discard old tube with red blood cells. Adjust volume of hepatocytes to ~10mL with Supplemented Willam's E media.
+1. Place cells in 37C water bath to sediment for 20 min. Keep the sediment. Discard the supernatant (contains red blood cells and stripped hepatocyte nuclei).
+1. Pellet hepatocytes by low-speed centrifugation (2 minutes @ 100g). Discard supernatant.
+1. Resuspend and adjust volume of hepatocytes to ~10mL with Supplemented Willam's E media.
 1. Count cells and determine viability with Invitrogen Countess.
 1. Plate XX cells/cm with 100uL Supplemented William’s E medium in 96-well plates. Incubate at 37C.
 1. Warm to 37C: phosphate buffered saline buffer, Definitive media.
