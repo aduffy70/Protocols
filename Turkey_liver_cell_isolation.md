@@ -6,11 +6,11 @@ categories: protocol
 
 Adapted from Fraslin Cell Isolation Protocol
 
-1. Warm to 37C: HEPES buffer 1, HEPES buffer 2, “Standard” HEPES buffer, Supplemented William’s E media.
+1. Warm to 37C: Perfusion buffer 1, Perfusion buffer 2, Supplemented William’s E media.
 1. Insert catheter into the portal vein and place two sutures to prevent backflow along the vein and back down the intersecting vein. Snip between liver and heart to allow outflow.
-1. Add 0.5-1.0mL Heparin (~875U/kg = 0.5mL Heparin (4400U/mL) for a 2.2kg bird) to a 50mL aliquot of HEPES Buffer 1. Perfuse (17mL/min) to start blanching while preventing clotting.
-1. Perfuse (25ml/min) with HEPES buffer 1 until blanched (~50-150mL).
-1. Perfuse with HEPES buffer 2 until digested (~300mL).
+1. Add 0.5-1.0mL Heparin (~875U/kg = 0.5mL Heparin (4400U/mL) for a 2.2kg bird) to a 50mL aliquot of Perfusion buffer 1. Perfuse (17mL/min) to start blanching while preventing clotting.
+1. Perfuse (25ml/min) with Perfusion buffer 1 until blanched (~50-150mL).
+1. Perfuse with Perfusion buffer 2 until digested (~300mL).
 1. Excise the liver, transfer to Supplemented William’s E media (~100mL), and move to the sterile hood for remaining steps.
 1. Release hepatocytes by gently breaking up the liver with a scalpel.
 1. Filter through cheesecloth to separate the undigested tissue. Pour ~75mL Supplemented William’s E medium over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
@@ -26,28 +26,38 @@ Adapted from Fraslin Cell Isolation Protocol
 
 # RECIPES
 
-## “Standard” HEPES buffer
-25mM HEPES, pH 7.5 in 1X PBS
+## 5X Perfusion buffer (HBSS + HEPES)
+136mM Sodium Chloride, 25mM HEPES, 5.5mM D-Glucose, 5.4mM Potassium Chloride, 4.2mM Sodium Bicarbonate, 0.9mM Magnesium Chloride, 0.5mM Magnesium Sulphate, 0.5mM EDTA, 0.45mM Potassium Phosphate, 0.35mM Sodium Phosphate, pH 7.4
 
-  * 70mL 10X PBS
-  * water to ~650mL
-  * 4.2g HEPES
-  * Raise pH to 7.5 with NaOH.
-  * Add water to 700mL.
+  * 40g Sodium Chloride
+  * 29.8g HEPES
+  * 5.0g D-Glucose
+  * 2.0g Potassium Chloride
+  * 1.8g Sodium Bicarbonate
+  * 915mg Magnesium Chloride hexahydrate
+  * 730mg EDTA
+  * 510mg Magnesium Sulphate heptahydrate
+  * 470mg Sodium Phosphate dibasic
+  * 305mg Potassium Phosphate monobasic
+  * Add water to 950mL
+  * Raise pH to 7.4 with NaOH.
+  * Add water to 1L.
 
-## HEPES buffer 1
-25mM HEPES
-
-  * 350mL “Standard” HEPES buffer
+## Perfusion buffer 1
+1X HBSS + HEPES pH 7.4
+  * 70mL 5X Perfusion buffer
+  * 280mL water.
+  * Adjust pH to 7.4
   * Filter-sterilize.
 
-## HEPES buffer 2
-25mM HEPES, 5mM CaCl2, ~15U/mL collagenase type 4, pH 7.5
+## Perfusion buffer 2
+1X HBSS + HEPES, 1.3mM Calcium Chloride, ~15U/mL collagenase type 4, pH 7.4
 
-  * 210mg CaCl2 in 350mL “Standard” HEPES buffer
+  * 50mg Calcium Chloride in 350mL Perfusion buffer 1
   * Mix to dissolve completely.
+  * Adjust pH to 7.4
   * Filter-sterilize.
-  * Add 14mg collagenase (~375U/mg) just before use.
+  * Add 14mg collagenase type 4 (~375U/mg) just before use.
 
 ## Supplemented William’s E media
 100U/mL penicillin/streptomycin, 10ug/mL insulin
