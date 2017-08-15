@@ -45,8 +45,8 @@ Adapted from Fraslin Cell Isolation Protocol
 
 ## Perfusion buffer 1
 1X HBSS + HEPES pH 7.4
-  * 70mL 5X Perfusion buffer
-  * 280mL water.
+  * 140mL 5X Perfusion buffer
+  * 560mL water
   * Adjust pH to 7.4
   * Filter-sterilize.
 
