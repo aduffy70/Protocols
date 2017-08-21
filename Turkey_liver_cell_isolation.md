@@ -76,10 +76,10 @@ Adapted from Fraslin Cell Isolation Protocol
   * 600uL dexamethasone (stock = 20ug/mL)
 
 ## 47.6% Percoll
-  To make Stock Isotonic Percoll (SIP):
-    * 9 parts stock Percoll : 1 part 1.5M NaCl
+To make Stock Isotonic Percoll (SIP):
+  * 9 parts stock Percoll : 1 part 1.5M NaCl
 
-  To make 47.6% Percoll (I know... this actually makes 47.6% SIP, not 47.6% Percoll, but it works. It is actually 42.8% Percoll):
-    * 100mL SIP
-    * 110mL HBSS + HEPES
-    * Adjust pH to 7.4 with HCl
+To make 47.6% Percoll (I know... this actually makes 47.6% SIP, not 47.6% Percoll, but it works. It is actually 42.8% Percoll):
+  * 100mL SIP
+  * 110mL HBSS + HEPES
+  * Adjust pH to 7.4 with HCl
