@@ -5,34 +5,62 @@ categories: protocol
 ---
 Adapted from Kornberg, Lactic Dehydrogenase of Muscle
 
-Each reaction contains:
-  * 6.7uL Sodium pyruvate (0.01M)
-  * 6.7uL DPNH (0.002M “slightly alkaline”)
-  * 67uL Balanced phosphate buffers (0.1M pH 7.4)
-  * 60uL sample (cells in media)
-  * 60uL Phenol Stock (150mM) + Media in one of 12 different ratios
+# Cytotoxicity assay
+
+## Overview
+
+Cells are plated, incubated with phenol at different concentrations and then LDH levels are measured to determine the relative levels of cell death/damage at each concentration. Include 3-4 replicates of each phenol concentration.
+
+Each reaction contains (for 96 well plates):
+  * 80.4uL Assay Mix:
+    - 6.7uL Sodium pyruvate (0.01M)
+    - 6.7uL DPNH (0.002M “slightly alkaline”)
+    - 67uL Balanced phosphate buffers (0.1M pH 7.4)
+  * Plated cells with 60uL media (or just media for no-cell controls)
+  * 60uL Phenol Stock (150mM) + Media in different ratios
+
+## Process
+
+  * Change media in plated cells, adding 60uL Definitive Supplemented William's E to each well.
+  * Add 60uL Definitive Supplemented William's E to no-cell control wells.
+  * Add 60uL of appropriate phenol dilution to each well (table below).
+  * Incubate 2 hours.
+  * Add 80.4uL Assay mix to each well.
+  * Immediately read wells at 340nm. Record at least 3 absorbance measurements at least 1 minute apart.
 
 ## Phenol/Media Stock : William's Supplemented Media ratios
 
-| Phenol ratio | Phenol mM (with just sample / final in assay) | Phenol (uL) | Media (uL) |
-| ------------ | --------------------------------------------- | ----------- | ---------- |
-| 100% | 75 / 45 | 60 | 0  |
-| 75%  | 56 / 33 | 45 | 15 |
-| 50%  | 38 / 23 | 30 | 30 |
-| 40%  | 30 / 18 | 24 | 36 |
-| 35%  | 26 / 16 | 21 | 39 |
-| 30%  | 23 / 14 | 18 | 42 |
-| 25%  | 19 / 11 | 15 | 45 |
-| 20%  | 15 / 9  | 12 | 48 |
-| 15%  | 11 / 7  | 9  | 51 |
-| 10%  | 8 / 5   | 6  | 54 |
-| 5%   | 4 / 2   | 3  | 57 |
-| 0%   | 0 / 0   | 0  | 60 |
+| Phenol ratio | Phenol mM (during incubation with sample) | 75mM Phenol (uL) | Media (uL) |
+| ------------ | ----------------------------------------- | ----------- | ---------- |
+| 100% | 37.5 | 60 | 0  |
+| 80%  | 30 | 48 | 12 |
+| 60%  | 22.5 | 36 | 24 |
+| 40%  | 15 | 24 | 36 |
+| 20%  | 7.5 | 12 | 48 |
+| 0%   | 0 | 0  | 60 |
 
-1. Make a master mix containing the pyruvate, DPNH, and balanced phosphate buffer. Make enough to aliquot into 12 wells per sample and 12 wells for a control. Aliquot into a 96 well plate.
-1. Make phenol dilutions in separate wells, add sample (or media for the controls) to the phenol dilutions, mix, incubate for 5 minutes and then transfer to the wells with the master mix.
-1. Visualize at 340nm. Record at least 3 absorbance measurements at least 1 minute apart.
+Note: Phenol LD50 (at 2 hours) for isolated rat hepatocytes is 12mM ([Moridani et al. 2003][1])
 
+# Viability assay
+
+## Overview
+
+Cells are plated and LDH levels are measured after different amounts of time (~12 hours apart) to determine the relative levels of cell death/damage over time. Include 3-4 replicates for each time point.
+
+Each reaction contains (for 96 well plates):
+  * 80.4uL Assay Mix:
+    - 6.7uL Sodium pyruvate (0.01M)
+    - 6.7uL DPNH (0.002M “slightly alkaline”)
+    - 67uL Balanced phosphate buffers (0.1M pH 7.4)
+  * Plated cells with 120uL media (or just media for no-cell controls)
+
+## Process
+
+  * Change media in plated cells, adding 120uL Definitive Supplemented William's E to each well.
+  * Add 120uL Definitive Supplemented William's E to no-cell control wells.
+  * At each timepoint:
+    - Add 80.4uL Assay mix to each well for that timepoint.
+    - Immediately read wells at 340nm. Record at least 3 absorbance measurements at least 1 minute apart.
 
 # RECIPES
 
@@ -61,3 +89,5 @@ For 10mL:
   * ~9mL water
   * NaOH to reach ~ pH 7.7
   * Water to 10mL
+
+[1]: http://doi.org/10.1016/S0009-2797(02)00258-2
