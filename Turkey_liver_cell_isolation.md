@@ -16,7 +16,7 @@ Adapted from Fraslin Cell Isolation Protocol
 1. Filter through cheesecloth to separate the undigested tissue. Pour ~50mL Supplemented William’s E medium over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
 1. Filter with nylon-mesh filters of pore sizes 100, and 70um, and 40um to eliminate cell aggregates (turkey hepatocyctes are ~18uM--3 times smaller than mammalian hepatocytes).
 1. Place cells in 37C water bath to sediment for 20 min. Keep the sediment. Discard the supernatant (contains red blood cells and stripped hepatocyte nuclei).
-1. Resuspend cells in 25mL Supplemented Willam's E. Add 25mL cold (4C) Diluted percoll and mix gently but thoroughly by inverting.
+1. Resuspend cells in exactly 25mL Supplemented Willam's E. Add exactly 25mL cold (4C) Diluted percoll and mix gently but thoroughly by inverting. Even small differences in the media:percoll ratio can have large effects on cell pellet size and cleanliness. (Too little percoll = large dirty pellet; Too much percoll = small pellet)
 1. Pellet hepatocytes by low-speed centrifugation (10 minutes @ 100g). Discard supernatant.
 1. Resuspend and adjust volume of hepatocytes to ~1-5mL with Supplemented Willam's E media.
 1. Count cells and determine viability with hemocytometer and trypan blue.
@@ -75,11 +75,14 @@ Adapted from Fraslin Cell Isolation Protocol
   * 6mL transferrin (stock = 500ug/mL)
   * 600uL dexamethasone (stock = 20ug/mL)
 
-## Diluted Percoll
+## Diluted Percoll (45%)
 To make Stock Isotonic Percoll (SIP):
-  * 9 parts stock Percoll : 1 part 1.5M NaCl
+  * 90mL stock Percoll
+  * 10mL 1.5M NaCl
+  * Do this in the hood to keep the stock bottle of percoll sterile
 
-To make Diluted Percoll (We used to call this 47.6% Percoll, but it is actually 47.6% SIP or 42.8% Percoll. To reduce confusion we are now just calling/labelling it "Diluted Percoll"):
+To make Diluted Percoll (45%):
   * 100mL SIP
-  * 110mL HBSS + HEPES
-  * Adjust pH to 7.4 with HCl
+  * 100mL 1X HBSS + HEPES
+  * Adjust pH to 7.4 with 30% HCl (it should take ~250uL).
+  * Note- Only use exactly 30% HCL for this! If you use a stronger or weaker solution the final percoll% will be different. Even small changes to the percoll% will have large effects on the size and cleanliness of the cell pellet.
