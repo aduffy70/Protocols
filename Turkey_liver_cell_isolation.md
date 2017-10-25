@@ -10,13 +10,13 @@ Adapted from Fraslin Cell Isolation Protocol
 1. Insert catheter into the inferior mesenteric artery and suture in place. Suture the superior mesentery artery to prevent backflow. Snip vena cava between liver and heart to allow outflow.
 1. Add 0.25-0.5mL Heparin (~875U/kg = 0.5mL Heparin (4400U/mL) for a 2.2kg bird) to a 50mL aliquot of Perfusion buffer 1. Perfuse (17mL/min) to start blanching while preventing clotting.
 1. Perfuse (25ml/min) with Perfusion buffer 1 until blanched (~50-150mL).
-1. Perfuse with Perfusion buffer 2 until digested (~300mL). During perfusion put pressure on vena cava for a few seconds to inflate liver and assist in cell dissociation. Repeat every 2-3 minutes.
+1. Perfuse with Perfusion buffer 2 until digested (~300mL or when the liver stays dimpled when poked with a blunt tool). During perfusion put pressure on vena cava for a few seconds to inflate liver and assist in cell dissociation. Repeat every 2-3 minutes.
 1. Excise the liver, transfer to Supplemented William’s E media (~50mL), and move to the sterile hood for remaining steps.
 1. Release hepatocytes by breaking the glissons capsule and gently probing with a cell scraper.
 1. Filter through cheesecloth to separate the undigested tissue. Pour ~50mL Supplemented William’s E medium over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
 1. Filter with nylon-mesh filters of pore sizes 100, and 70um, and 40um to eliminate cell aggregates (turkey hepatocyctes are ~18uM--3 times smaller than mammalian hepatocytes).
 1. Place cells in 37C water bath to sediment for 20 min. Keep the sediment. Discard the supernatant (contains red blood cells and stripped hepatocyte nuclei).
-1. Resuspend cells in 25mL Supplemented Willam's E. Add 25mL cold (4C) 47.6% percoll and mix gently but thoroughly by inverting.
+1. Resuspend cells in 25mL Supplemented Willam's E. Add 25mL cold (4C) Diluted percoll and mix gently but thoroughly by inverting.
 1. Pellet hepatocytes by low-speed centrifugation (10 minutes @ 100g). Discard supernatant.
 1. Resuspend and adjust volume of hepatocytes to ~1-5mL with Supplemented Willam's E media.
 1. Count cells and determine viability with hemocytometer and trypan blue.
@@ -75,11 +75,11 @@ Adapted from Fraslin Cell Isolation Protocol
   * 6mL transferrin (stock = 500ug/mL)
   * 600uL dexamethasone (stock = 20ug/mL)
 
-## 47.6% Percoll
+## Diluted Percoll
 To make Stock Isotonic Percoll (SIP):
   * 9 parts stock Percoll : 1 part 1.5M NaCl
 
-To make 47.6% Percoll (I know... this actually makes 47.6% SIP, not 47.6% Percoll, but it works. It is actually 42.8% Percoll):
+To make Diluted Percoll (We used to call this 47.6% Percoll, but it is actually 47.6% SIP or 42.8% Percoll. To reduce confusion we are now just calling/labelling it "Diluted Percoll"):
   * 100mL SIP
   * 110mL HBSS + HEPES
   * Adjust pH to 7.4 with HCl
