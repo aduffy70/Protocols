@@ -46,19 +46,19 @@ Adapted from Fraslin Cell Isolation Protocol
 
 ## Perfusion buffer 1
 1X HBSS + HEPES pH 7.4
-  * 140mL 5X Perfusion buffer
-  * 560mL water
+  * 120mL 5X Perfusion buffer
+  * 480mL water
   * Adjust pH to 7.4
   * Filter-sterilize.
 
 ## Perfusion buffer 2
-1X HBSS + HEPES, 1.3mM Calcium Chloride, ~4U/mL collagenase type 4, pH 7.4
+1X HBSS + HEPES, 1.3mM Calcium Chloride, ~5U/mL collagenase type 4, pH 7.4
 
-  * 50mg Calcium Chloride in 350mL Perfusion buffer 1
+  * 43mg Calcium Chloride in 350mL Perfusion buffer 1
   * Mix to dissolve completely.
   * Adjust pH to 7.4
   * Filter-sterilize.
-  * Add 7mg collagenase type 4 (~205U/mg) just before use.
+  * Add 4mg collagenase type 4 (~375U/mg) just before use.
 
 ## Supplemented William’s E media
 100U/mL penicillin/streptomycin, 10ug/mL insulin
