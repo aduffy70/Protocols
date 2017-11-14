@@ -30,13 +30,13 @@ Each reaction contains (for 96 well plates):
 
 ## Phenol/Media Stock : William's Supplemented Media ratios
 
-| Phenol ratio | Phenol mM (during incubation with sample) | 75mM Phenol (uL) | Media (uL) |
+| Phenol ratio | Phenol mM (during incubation with sample) | 150mM Phenol (uL) | Media (uL) |
 | ------------ | ----------------------------------------- | ----------- | ---------- |
-| 100% | 37.5 | 60 | 0  |
-| 80%  | 30 | 48 | 12 |
-| 60%  | 22.5 | 36 | 24 |
-| 40%  | 15 | 24 | 36 |
-| 20%  | 7.5 | 12 | 48 |
+| 100% | 75 | 60 | 0  |
+| 80%  | 60 | 48 | 12 |
+| 60%  | 45 | 36 | 24 |
+| 40%  | 30 | 24 | 36 |
+| 20%  | 15 | 12 | 48 |
 | 0%   | 0 | 0  | 60 |
 
 Note: Phenol LD50 (at 2 hours) for isolated rat hepatocytes is 12mM ([Moridani et al. 2003][1])
@@ -67,7 +67,7 @@ Each reaction contains (for 96 well plates):
 ## Phenol Stock (150mM)  
 
 For ~10mL:
-  * 148uL Phenol (89%)
+  * 158uL Phenol (89%)
   * 10mL Media (the same media the cells are in)
 
 ## Balanced phosphate buffers (0.1M pH 7.4)
