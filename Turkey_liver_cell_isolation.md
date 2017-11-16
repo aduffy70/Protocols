@@ -1,8 +1,8 @@
-—
+---
 layout: page
 title: Turkey liver cell isolation
 categories: protocol
-—
+---
 
 Adapted from Fraslin Cell Isolation Protocol
 
