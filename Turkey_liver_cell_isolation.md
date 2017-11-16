@@ -16,9 +16,10 @@ Adapted from Fraslin Cell Isolation Protocol
 1. Filter through cheesecloth to separate the undigested tissue. Pour ~50mL Supplemented William’s E medium over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
 1. Filter with nylon-mesh filters of pore sizes 100, and 70um, and 40um to eliminate cell aggregates (turkey hepatocyctes are ~18uM--3 times smaller than mammalian hepatocytes).
 1. Place cells in 37C water bath to sediment for 20 min. Keep the sediment. Discard the supernatant (contains red blood cells and stripped hepatocyte nuclei).
-1. Resuspend cells in exactly 25mL Supplemented Willam's E. Add exactly 25mL cold (4C) Diluted percoll and mix gently but thoroughly by inverting. Even small differences in the media:percoll ratio can have large effects on cell pellet size and cleanliness. (Too little percoll = large dirty pellet; Too much percoll = small pellet)
-1. Pellet hepatocytes by low-speed centrifugation (10 minutes @ 100g). Discard supernatant.
-1. Resuspend and adjust volume of hepatocytes to ~1-5mL with Supplemented Willam's E media.
+1. Resuspend cells in 10-20mL Supplemented Willam's E. Make a layered percoll gradient. The resuspended cells to the top of the layered percoll gradient, pipetting slowly to avoid mixing.
+1. Pellet hepatocytes by low-speed centrifugation (10 minutes @ 100g). Discard fluffy debris in the upper layers and red blood cells at the bottom of the tube. Keep the layer of clean cells toward the bottom.
+1. Wash by adding ~15mL Supplemented William's E media and spinning 3 minutes @ 200g. Discard supernatant.
+1. Gently resuspend pellet and adjust volume of hepatocytes to ~1-5mL with Supplemented Willam's E media.
 1. Count cells and determine viability with hemocytometer and trypan blue.
 1. Plate XX cells/cm with 100uL Supplemented William’s E medium in 96-well plates. Incubate at 37C.
 1. Warm to 37C: Supplemented William's E media, Definitive media.
@@ -54,11 +55,11 @@ Adapted from Fraslin Cell Isolation Protocol
 ## Perfusion buffer 2
 1X HBSS + HEPES, 1.3mM Calcium Chloride, ~5U/mL collagenase type 4, pH 7.4
 
-  * 43mg Calcium Chloride in 350mL Perfusion buffer 1
+  * 43mg Calcium Chloride in 300mL Perfusion buffer 1
   * Mix to dissolve completely.
   * Adjust pH to 7.4
   * Filter-sterilize.
-  * Add 4mg collagenase type 4 (~375U/mg) just before use.
+  * Add 5mg collagenase type 4 (~305U/mg) just before use.
 
 ## Supplemented William’s E media
 100U/mL penicillin/streptomycin, 10ug/mL insulin
@@ -86,3 +87,15 @@ To make Diluted Percoll (45%):
   * 100mL 1X HBSS + HEPES
   * Adjust pH to 7.4 with 30% HCl (it should take ~250uL).
   * Note- Only use exactly 30% HCL for this! If you use a stronger or weaker solution the final percoll% will be different. Even small changes to the percoll% will have large effects on the size and cleanliness of the cell pellet.
+
+## Layered percoll gradient
+
+Make 10mL each of 22.5%, 20%, and 17.5% percoll, using Supplemented William's media or Buffer 1 (to make the layer different colors to see that they aren't mixing):
+
+| % percoll | Add 45% percoll | add Supplemented William's media or Buffer 1 |
+| --------- | --------------- | -------------------------------- |
+| 22.5%   | 5uL  | 5uL WSM |
+| 20% | 4.4uL | 5.4uL Buffer 1 |
+| 17.5% | 3.8uL | 6.2uL WSM |
+
+Starting with the lowest concentration carefully layer from the bottom up.
