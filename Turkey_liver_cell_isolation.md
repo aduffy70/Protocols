@@ -11,21 +11,23 @@ Adapted from Fraslin Cell Isolation Protocol
 1. Add 0.25-0.5mL Heparin (~875U/kg = 0.5mL Heparin (4400U/mL) for a 2.2kg bird) to a 50mL aliquot of Perfusion buffer 1. Perfuse (17mL/min) to start blanching while preventing clotting.
 1. Perfuse (25ml/min) with Perfusion buffer 1 until blanched (~50-150mL).
 1. Perfuse with Perfusion buffer 2 until digested (~250mL or when the liver stays dimpled when poked with a blunt tool). During perfusion put pressure on vena cava for a few seconds to inflate liver and assist in cell dissociation. Repeat every 2-3 minutes.
-1. Excise the liver, transfer to Supplemented William’s E media (~50mL), and move to the sterile hood for remaining steps.
-1. Release hepatocytes by breaking the glissons capsule and gently probing with a cell scraper.
+1. Excise the liver and move to the sterile hood for remaining steps.
+1. Add ~50mL Supplemented William's E media and release hepatocytes by breaking the glissons capsule and gently probing with a cell scraper.
 1. Filter through cheesecloth to separate the undigested tissue. Pour ~50mL Supplemented William’s E medium over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
-1. Into a 50mL falcon tube, filter with nylon-mesh filters of pore sizes 100, and 70um, and 40um to eliminate cell aggregates (turkey hepatocyctes are ~18uM—3 times smaller than mammalian hepatocytes).
+1. Into 50mL falcon tubes, filter with nylon-mesh filters of pore sizes 100 (or 70um), and 40um to eliminate cell aggregates (turkey hepatocyctes are ~18uM—3 times smaller than mammalian hepatocytes).
 1. Pellet hepatocytes by centrifugation (3 minutes @ 200g). Discard supernatant.
-1. Gently resuspend cells in ~5mL Supplemented Willam’s E.
-1. Make a layered percoll gradient. In a 15mL falcon tube, use a 2mL glass pipette to slowly and carefully insert each layer at the bottom (pushing previous layers up) in the following order:
-  * sample
+1. Gently resuspend cells in 15-20mL Supplemented Willam’s E. Too "syrupy" and it won't separate well on the percoll gradient; too thin and bands won't be detectable.
+1. Make layered percoll gradients (1 per 5mL of resuspended cells). In a 15mL falcon tube, use a 2mL glass pipette to slowly and carefully insert each layer at the bottom (pushing previous layers up) in the following order:
+  * resuspended cells ~5mL
   * 17.5% 2mL
   * 20% 2mL
   * 22.5% 2mL
-  * 45% 1mL
-1. Pellet hepatocytes by centrifugation (10 minutes @ 100g). Discard fluffy debris in the upper layers and red blood cells at the bottom of the tube. Keep the layer of clean cells toward the bottom.
-1. Wash by adding ~10mL Supplemented William’s E media and spinning 3 minutes @ 200g. Discard supernatant.
-1. Gently resuspend pellet and adjust volume of hepatocytes to ~1-5mL with Supplemented Willam’s E media.
+  * 25% 1.5mL
+  * 45% ~1mL
+1. Pellet hepatocytes by centrifugation (10 minutes @ 100g). 5 floating bands (and possibly a pellet at the tip of the tube) will form: 17% band, 20% band, 22.5% band, 25% band, 25/45 boundary band. Discard 17% band, 20% band, and supernatant down to the top of the 22.5% band (contains more debris than cells). Keep the 22.5% band, 25% band, and 25/45 boundary band and the supernatant down to the clear 45% percoll layer (contains more cells than debris). Discard the clear 45% percoll and tip pellet (contains more red blood cells than hepatocytes). Combine the retained portions from multiple gradients in a single 50mL falcon tube.
+1. Wash away remaining percoll by adding ~20mL Supplemented William’s E media and spinning 3 minutes @ 200g. Discard supernatant.
+1. Wash away more debris by adding ~5mL Supplemented William's E media and settling at 37C for 5 minutes. Discard the supernatant. Repeat.
+1. Gently resuspend and adjust volume of hepatocytes to ~2-5mL with Supplemented Willam’s E media.
 1. Count cells and determine viability with hemocytometer and trypan blue.
 1. Plate ~70000 cells/well with 200uL Supplemented William’s E medium in 96-well plates. Incubate at 37C.
 1. Warm to 37C: Supplemented William’s E media, Definitive media.
@@ -98,6 +100,7 @@ To make additional dilutions from 45% percoll for a layered percoll gradient:
 
 | % percoll | Add 45% percoll | add Supplemented William’s media |
 | --------- | --------------- | -------------------------------- |
+| 25%  | 5.6mL  | 4.4mL |
 | 22.5% | 5mL  | 5mL |
-| 20% | 4.4mL | 5.4mL |
+| 20% | 4.4mL | 5.6mL |
 | 17.5% | 3.8mL | 6.2mL |
