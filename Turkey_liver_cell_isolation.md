@@ -24,7 +24,8 @@ Adapted from Fraslin Cell Isolation Protocol
   * 22.5% 2mL
   * 25% 1.5mL
   * 45% ~1mL
-1. Pellet hepatocytes by centrifugation (10 minutes @ 100g). 5 floating bands (and possibly a pellet at the tip of the tube) will form: 17% band, 20% band, 22.5% band, 25% band, 25/45 boundary band. Discard 17% band, 20% band, and supernatant down to the top of the 22.5% band (contains more debris than cells). Keep the 22.5% band, 25% band, and 25/45 boundary band and the supernatant down to the clear 45% percoll layer (contains more cells than debris). Discard the clear 45% percoll and tip pellet (contains more red blood cells than hepatocytes). Combine the retained portions from multiple gradients in a single 50mL falcon tube.
+1. Pellet hepatocytes by centrifugation (10 minutes @ 100g). 5 floating bands (and possibly a pellet at the tip of the tube) will form: 17% band, 20% band, 22.5% band, 25% band, 25/45 boundary band.
+1. Discard 17% band, 20% band, and supernatant down to the top of the 22.5% band (more debris than cells). Keep the 22.5% band, 25% band, 25/45 boundary band, and supernatant down to the clear 45% percoll layer (more cells than debris). Discard the clear 45% percoll and tip pellet (more red blood cells than hepatocytes). Combine the retained portions from multiple gradients in a single 50mL falcon tube.
 1. Wash away remaining percoll by adding ~20mL Supplemented William’s E media and spinning 3 minutes @ 200g. Discard supernatant.
 1. Wash away more debris by adding ~5mL Supplemented William's E media and settling at 37C for 5 minutes. Discard the supernatant. Repeat.
 1. Gently resuspend and adjust volume of hepatocytes to ~2-5mL with Supplemented Willam’s E media.
