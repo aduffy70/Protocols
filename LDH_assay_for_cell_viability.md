@@ -3,43 +3,45 @@ layout: page
 title: LDH assay for cell viability
 categories: protocol
 ---
-Adapted from Kornberg, Lactic Dehydrogenase of Muscle
+Using CytoTox-ONE kit
 
 # Cytotoxicity assay
 
 ## Overview
 
-Cells are plated, incubated with phenol at different concentrations and then LDH levels are measured to determine the relative levels of cell death/damage at each concentration. Include 3-4 replicates of each phenol concentration.
+Cells are plated, incubated with phenol (or lysis solution) at different concentrations and then LDH levels are measured to determine the relative levels of cell death/damage at each concentration. Include 3 replicates of each phenol concentration with cells and 3 with no cells as controls.
 
 Each reaction contains (for 96 well plates):
-  * 80.4uL Assay Mix:
-    - 6.7uL Sodium pyruvate (0.01M)
-    - 6.7uL DPNH (0.002M “slightly alkaline”)
-    - 67uL Balanced phosphate buffers (0.1M pH 7.4)
-  * Plated cells with 60uL media (or just media for no-cell controls)
-  * 60uL Phenol Stock (150mM) + Media in different ratios
+  * Plated cells (or no cells for controls)
+  * 100uL Phenol Stock (150mM) + Media in different ratios (or Lysis solution + Media)
+  * 100uL CytoTox-ONE reagent
 
 ## Process
 
-  * Change media in plated cells, adding 60uL Definitive Supplemented William's E to each well.
-  * Add 60uL Definitive Supplemented William's E to no-cell control wells.
-  * Add 60uL of appropriate phenol dilution to each well (table below).
+  * Remove media from plated cells.
+  * Add 100uL of appropriate Phenol dilution or Lysis dilution to each well (table below).
   * Incubate 2 hours.
-  * Add 80.4uL Assay mix to each well.
-  * Immediately read wells at 340nm. Record at least 3 absorbance measurements at least 1 minute apart.
+  * Add 100uL CytoTox-ONE to each well.
+  * Immediately read wells with excitation at 560nm and emission at 590m. Record at least 3 absorbance measurements at least 1 minute apart.
 
-## Phenol/Media Stock : William's Supplemented Media ratios
+## Phenol Stock : Media ratios
 
-| Phenol ratio | Phenol mM (during incubation with sample) | 150mM Phenol (uL) | Media (uL) |
-| ------------ | ----------------------------------------- | ----------- | ---------- |
-| 100% | 75 | 60 | 0  |
-| 80%  | 60 | 48 | 12 |
-| 60%  | 45 | 36 | 24 |
-| 40%  | 30 | 24 | 36 |
-| 20%  | 15 | 12 | 48 |
-| 0%   | 0 | 0  | 60 |
+| % Phenol stock (mM Phenol) | 150mM Phenol (uL) | Media (uL) |
+| -------------------------- | ----------------- | ---------- |
+| 50% (75mM) | 50 | 50 |
+| 40% (60mM) | 40 | 60 |
+| 30% (45mM) | 30 | 70 |
+| 20% (30mM) | 20 | 80 |
+| 10% (15mM) | 10 | 90 |
+| 0% (0mM) | 0  | 100 |
 
 Note: Phenol LD50 (at 2 hours) for isolated rat hepatocytes is 12mM ([Moridani et al. 2003][1])
+
+## Lysis Solution : Media ratios
+
+| Lysis Solution (uL) | Media (uL) |
+| ------------------- | ---------- |
+| 2 | 98 |
 
 # Viability assay
 
@@ -48,19 +50,17 @@ Note: Phenol LD50 (at 2 hours) for isolated rat hepatocytes is 12mM ([Moridani e
 Cells are plated and LDH levels are measured after different amounts of time (~12 hours apart) to determine the relative levels of cell death/damage over time. Include 3-4 replicates for each time point.
 
 Each reaction contains (for 96 well plates):
-  * 80.4uL Assay Mix:
-    - 6.7uL Sodium pyruvate (0.01M)
-    - 6.7uL DPNH (0.002M “slightly alkaline”)
-    - 67uL Balanced phosphate buffers (0.1M pH 7.4)
-  * Plated cells with 120uL media (or just media for no-cell controls)
+  * Plated cells (or no cells for controls)
+  * 100uL Media in different ratios
+  * 100uL CytoTox-ONE reagent
 
 ## Process
 
-  * Change media in plated cells, adding 120uL Definitive Supplemented William's E to each well.
-  * Add 120uL Definitive Supplemented William's E to no-cell control wells.
+  * Change media in plated cells, adding 100uL media to each well.
+  * Add 100uL media to no-cell control wells.
   * At each timepoint:
-    - Add 80.4uL Assay mix to each well for that timepoint.
-    - Immediately read wells at 340nm. Record at least 3 absorbance measurements at least 1 minute apart.
+    - 100uL CytoTox-ONE reagent to each well for that timepoint.
+    - Immediately read wells with excitation at 560nm and emission at 590m. Record at least 3 absorbance measurements at least 1 minute apart.
 
 # RECIPES
 
@@ -69,25 +69,5 @@ Each reaction contains (for 96 well plates):
 For ~10mL:
   * 158uL Phenol (89%)
   * 10mL Media (the same media the cells are in)
-
-## Balanced phosphate buffers (0.1M pH 7.4)
-
-For ~50uL:
-  * 25mL 0.1M KH2PO4
-  * Add 0.1M K2HPO4 until pH is 7.4
-
-## Sodium pyruvate (0.01M)
-
-For 100mL:
-  * 10mL 0.1M sodium pyruvate (Sigma)
-  * 90mL water
-
-## DPNH (0.002M “Slightly alkaline” pH)
-
-For 10mL:
-  * 4mg DPNH
-  * ~9mL water
-  * NaOH to reach ~ pH 7.7
-  * Water to 10mL
 
 [1]: http://doi.org/10.1016/S0009-2797(02)00258-2
