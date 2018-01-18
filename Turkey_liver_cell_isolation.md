@@ -84,9 +84,9 @@ Supplemented media needed = 0.01 * Volume of supernatant / 0.20
 ## Supplemented media
 100U/mL penicillin/streptomycin, 10ug/mL insulin
 
-  * 250 mL William’s E media
-  * 2.5mL penicillin/streptomycin
-  * 2.5mg insulin
+  * 500 mL William’s E media
+  * 5mL penicillin/streptomycin
+  * 5mg insulin
 
 ## Definitive media
 1ug/mL glucagon, 100ug/mL transferrin, 0.4ug/mL dexamethasone
@@ -95,6 +95,7 @@ Supplemented media needed = 0.01 * Volume of supernatant / 0.20
   * 150uL glucagon (stock = 200ug/mL)
   * 6mL transferrin (stock = 500ug/mL)
   * 600uL dexamethasone (stock = 20ug/mL)
+  * Optionally add 5%v/v FBS
 
 ## Diluted Percoll
 To make Stock Isotonic Percoll (SIP):
