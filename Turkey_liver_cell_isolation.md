@@ -18,7 +18,9 @@ Adapted from Fraslin Cell Isolation Protocol
 1. Pellet hepatocytes by centrifugation (3 minutes @ 200g). Discard supernatant.
 1. Gently resuspend cells in enough media to make 32mL. In two 50mL falcon tubes, place 16mL suspended cells and 20mL Diluted percoll (45%) to make a final concentration of 25% percoll. (Equation below for reference)
 ~~~
-Supplemented media needed = (([starting percoll] - [desired percoll]) * Volume of percoll) / [desired percoll]
+Supplemented media needed = (([starting percoll] - [desired percoll]) * Volume of percoll)
+                            --------------------------------------------------------------
+                                                    [desired percoll]
 ~~~
 1. Pellet hepatocytes by centrifugation (5 minutes @ 100g). Pellet should contain red blood cells and a small amount of cells.
   * Discard top ~ 5mL (Should the lightest "garbage")
