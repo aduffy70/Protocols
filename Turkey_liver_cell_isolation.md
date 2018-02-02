@@ -99,7 +99,7 @@ Supplemented media needed = 0.01 * Volume of supernatant / 0.20
 
 ## Diluted Percoll
 To make Stock Isotonic Percoll (SIP):
-  * 90mL stock Percoll
+  * 90mL stock Percoll (1.130g/mL density)
   * 10mL 1.5M NaCl
   * Do this in the hood to keep the stock bottle of percoll sterile
 
