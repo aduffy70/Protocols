@@ -23,7 +23,7 @@ Adapted from Fraslin Cell Isolation Protocol
                                 Total volume
 ~~~
 1. Pellet hepatocytes by centrifugation (5 minutes @ 100g). Pellet should contain red blood cells and a small amount of cells.
-  * Discard top ~ 5mL (Should the lightest "garbage")
+  * Discard top ~ 5mL (Should be the lightest "garbage")
   * Collect as much supernatant as possible without mixing red blood cells back out of the pellet. Place supernatant in a new 50mL falcon tube and measure volume with a serological pipette.
   * Discard the pellet (more red blood cells than hepatocytes).
 1. Add media to the supernatant to reduce percoll from ~27% to ~21% according to the equation below:
