@@ -16,27 +16,34 @@ Adapted from Fraslin Cell Isolation Protocol
 1. Filter through cheesecloth to separate the undigested tissue. Pour ~50-100mL Supplemented media over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
 1. Into 50mL falcon tubes, filter with nylon-mesh filters of pore sizes 100 (or 70um), and 40um to eliminate cell aggregates (turkey hepatocyctes are ~18uM—3 times smaller than mammalian hepatocytes).
 1. Pellet hepatocytes by centrifugation (3 minutes @ 200g). Discard supernatant.
-1. Gently resuspend cells in enough media to make 32mL. In two 50mL falcon tubes, place 16mL suspended cells and 20mL Diluted percoll (45%) to make a final concentration of 25% percoll. (Equation below for reference)
+1. Gently resuspend cells in enough media to make 32mL. In two 50mL falcon tubes, place 14mL suspended cells and 20mL Diluted percoll (45%) to make a final concentration of ~27% percoll. (Equation below for reference)
 ~~~
-Supp. media needed = (([starting percoll] - [desired percoll]) * Volume of percoll)
-                     --------------------------------------------------------------
-                                          [desired percoll]
+[Final percoll] = [starting percoll] * Volume of percoll)
+                  ---------------------------------------
+                                Total volume
 ~~~
 1. Pellet hepatocytes by centrifugation (5 minutes @ 100g). Pellet should contain red blood cells and a small amount of cells.
   * Discard top ~ 5mL (Should the lightest "garbage")
   * Collect as much supernatant as possible without mixing red blood cells back out of the pellet. Place supernatant in a new 50mL falcon tube and measure volume with a serological pipette.
   * Discard the pellet (more red blood cells than hepatocytes).
-1. Add media to the supernatant to reduce percoll to 21% according to the equation below:
+1. Add media to the supernatant to reduce percoll from ~27% to ~21% according to the equation below:
 ~~~
-Supplemented media needed = 0.04 * Volume of supernatant / 0.21
+Supp. media needed = 0.286 * Volume of percoll)
 ~~~
+  * (General form of the equation for reference):
+~~~
+Supp. media needed = (([starting percoll] - [desired percoll]) * Volume of percoll)
+                     --------------------------------------------------------------
+                                          [desired percoll]
+~~~
+
 1. Pellet hepatocytes by centrifugation (5 minutes @ 100g).
   * Discard top ~ 5mL
   * Collect as much supernatant as possible without disturbing pellet.
   * Resuspend pellet in ~5mL Supplemented media and place in 37C bath while processing supernatant.
   * Measure supernatant and repeat, this time reducing percoll from 21% to 20% using equation below. Spin again. Combine pellet from 20% percoll spin with pellet from 21% percoll spin.
 ~~~
-Supplemented media needed = 0.01 * Volume of supernatant / 0.20
+Supplemented media needed = 0.05 * Volume of supernatant
 ~~~
 1. Wash away remaining percoll by adding ~20mL Supplemented media and spinning 3 minutes @ 200g. Discard supernatant. Repeat (at least twice) but spin 1 minute @ 200g.
 1. Gently resuspend and adjust volume of hepatocytes to ~2-5mL with Supplemented media.
