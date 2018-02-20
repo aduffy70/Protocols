@@ -16,7 +16,7 @@ Adapted from Fraslin Cell Isolation Protocol
 1. Filter through cheesecloth to separate the undigested tissue. Pour ~50-100mL Supplemented media over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
 1. Into 50mL falcon tubes, filter with nylon-mesh filters of pore sizes 100 (or 70um), and 40um to eliminate cell aggregates (turkey hepatocyctes are ~18uM—3 times smaller than mammalian hepatocytes).
 1. Pellet hepatocytes by centrifugation (3 minutes @ 200g). Discard supernatant.
-1. Gently resuspend cells in enough media to make 32mL. In two 50mL falcon tubes, place 14mL suspended cells and 20mL Diluted percoll (45%) to make a final concentration of ~27% percoll. (Equation below for reference)
+1. Gently resuspend cells in enough media to make 14mL per percoll tube. In 50mL falcon tubes, place 14mL suspended cells and 20mL Diluted percoll (45%) to make a final concentration of ~27% percoll. (Equation below for reference)
 ~~~
 [Final percoll] = [starting percoll] * Volume of percoll)
                   ---------------------------------------
