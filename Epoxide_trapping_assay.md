@@ -26,6 +26,8 @@ Adapted from existing Coulombe Lab protocols
 
 # HPLC:
 
+## Setup
+
 1. Fill C (HPLC MeOH), D (HPLC water), and wash (HPLC MeOH) bottles.
 1. Change guard column, if needed.
 1. Turn on components in counter clockwise order (pump, sampler, oven, detector, controller).
@@ -51,14 +53,16 @@ Adapted from existing Coulombe Lab protocols
 
 1. Spin samples (13.2rpm, 11min), filter and load into sampler with 50% HPLC MeOH:HPLC water blank.
 1. Start run.
-1. After ~45 minutes, collect and process standard:
-  * Collect AFB-gsh peak (~16.5 -16.8 minutes). Start collecting at top of peak and collect for 2 minutes.
-  * Take A365 reading of AFB-gsh blanked with 30% HPLC MeOH:HPLC water.
-  * Make 24.4uM AFG from 122uM stock:
-    * 100uL 122uM AFG
-    * 400uL HPLC MeOH
-  * Take A365 reading of 24.4uM AFG blanked with MeOH. Expected reading = 0.549.
-  * Make standard dilutions according to table:
+
+## Collect and process standard
+
+1. When the standard sample is injected (about 45 minutes after run starts), collect the AFB-gsh peak (~16.5 -16.8 minutes into the standard sample). Start collecting at top of peak and collect for 2 minutes.
+1. Take A365 reading of AFB-gsh blanked with 30% HPLC MeOH:HPLC water.
+1. Make 24.4uM AFG from 122uM stock:
+  * 100uL 122uM AFG
+  * 400uL HPLC MeOH
+1. Take A365 reading of 24.4uM AFG blanked with MeOH. Expected reading = 0.549.
+1. Make standard dilutions according to table:
 
 | Sample | AFB-gsh uL | 30% HPLC MeOH uL | 24.4uM AFG uL |
 | ------ | ---------- | ---------------- | ------------- |
@@ -68,9 +72,12 @@ Adapted from existing Coulombe Lab protocols
 | S4 | 43.8 | 306.2 (153.0 + 153.2) | 14 |
 | S5 | 21.9 | 328.2 (164.0 + 164.2) | 14 |
 
-  * Make 2 aliquots of 165uL per standard sample (S1-S5 and S1a-S5a) in HPLC vials.
+1. Make 2 aliquots of 165uL per standard sample (S1-S5 and S1a-S5a) in HPLC vials.
 
 1. Load vials into sampler.
+
+## Post-run
+
 1. Next day, stop batch.
 1. Switch to clean guard column.
 1. Run clean and store batch.
@@ -79,10 +86,6 @@ Adapted from existing Coulombe Lab protocols
 1. Close up waste container.
 1. Find data and shift or control click on runs. Right click, file conversion to ASCII. Output items, file properties and peak table. Save to the desired drive.
 1. Import data to Setup/analysis sheet.
-
-
-
-
 
 # RECIPES
 
