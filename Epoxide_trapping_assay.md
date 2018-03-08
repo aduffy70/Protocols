@@ -87,42 +87,34 @@ Adapted from existing Coulombe Lab protocols
 
 ## Trapping Buffer (80mM Potassium Phosphate, 25mM KCl, 5mM MgCl2, 0.25mM sucrose, pH 7.6):
 
-### Buffer stocks:
-
 200x Sucrose (0.05M):
   * 0.21g sucrose (342.3 mw)
   * water to 12mL
   * Make 1.1 and 0.6ml aliquots, store at -20.
-
 
 200x MgCl2-6H2O (1.23M):
   * 2.5g MgCl2-6H2O (203.31 mw)
   * water to 10mL
   * Make 1.1 and 0.6ml aliquots, store at -20.
 
-
 100x KCl (2.5M):
   * 5g KCl (74.55 mw)
   * water to 27mL
   * Make 1.1ml aliquots, store at -20.
-
 
 10x K2HPO4 (0.8M):
   * 7g K2HPO4 dibasic (174.18 mw)
   * water to 50mL
   * Store in fridge
 
-
 10x KH2PO4 (0.8M):
   * 5.4g KH2PO4 monobasic (136.09 mw)
   * water to 50mL
   * Store in fridge
 
-
-Buffer 1  (80mM K2HPO4 dibasic, pH~8.8):
+Buffer 1 (80mM K2HPO4 dibasic, pH~8.8):
   * 10mL 10X K2HPO4
   * 90mL water
-
 
 Buffer 2 (80mM KH2PO4 monobasic, “low” pH):
   * 10mL 10X KH2PO4
@@ -132,10 +124,9 @@ Buffer 2 (80mM KH2PO4 monobasic, “low” pH):
   * water to 100mL
   * store in fridge
 
-
 Trapping buffer
   * 100mL Buffer 1
-  * Add ~10ml buffer 2 to bring pH ~7.8. (So precipitates do not form in next steps)
+  * Add ~10ml Buffer 2 to bring pH ~7.8. (So precipitates do not form in next steps)
   * Then add:
     * 0.5ml 200x sucrose
     * 0.5ml 200x MgCl
@@ -144,19 +135,15 @@ Trapping buffer
 
 ## 10X Cofactor Mix (20mM NADPH, 50mM GSH)
 
-### Stocks:
-
 NADPH (0.2M):
   * 0.1g NADPH (Sigma N1630, 833.35 mw)
   * 0.5mL Trapping buffer
   * Make 110ul aliquots, store at -20.
 
-
 GSH (Sigma G6529, 0.2M):
   * 0.1g GSH (307.32mw)
   * 1.5mL Trapping buffer
   * Make 260ul aliquots, store at -20.
-
 
 10X Cofactor Mix:
   * 100uL NADPH
@@ -174,8 +161,7 @@ GSH (Sigma G6529, 0.2M):
   * 10mg AFG (A0138, 328.27mw)
   * 1ml DMSO
 
-
-AFG Internal Standard (122uM):
+AFG Internal Standard:
   * 40uL 30.5mM AFG
   * 9.96mL HPLC MeOH
   * Make 1.5mL aliquots, store at -20.
