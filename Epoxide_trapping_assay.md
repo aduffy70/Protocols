@@ -50,7 +50,6 @@ Adapted from existing Coulombe Lab protocols
 1. Lower to .5ml/min until ready to start run.
 1. Set up batch table.
 1. Change data file names (date and sample #).
-
 1. Spin samples (13.2rpm, 11min), filter and load into sampler with 50% HPLC MeOH:HPLC water blank.
 1. Start run.
 
@@ -62,7 +61,7 @@ Adapted from existing Coulombe Lab protocols
   * 100uL 122uM AFG
   * 400uL HPLC MeOH
 1. Take A365 reading of 24.4uM AFG blanked with MeOH. Expected reading = 0.549.
-1. Make standard dilutions according to table:
+1. Make standard dilutions according to table, make 2 aliquots of 165uL per standard sample (S1-S5 and S1a-S5a) in HPLC vials, and load vials into sampler:
 
 | Sample | AFB-gsh uL | 30% HPLC MeOH uL | 24.4uM AFG uL |
 | ------ | ---------- | ---------------- | ------------- |
@@ -72,9 +71,6 @@ Adapted from existing Coulombe Lab protocols
 | S4 | 43.8 | 306.2 (153.0 + 153.2) | 14 |
 | S5 | 21.9 | 328.2 (164.0 + 164.2) | 14 |
 
-1. Make 2 aliquots of 165uL per standard sample (S1-S5 and S1a-S5a) in HPLC vials.
-
-1. Load vials into sampler.
 
 ## Post-run
 
@@ -98,29 +94,35 @@ Adapted from existing Coulombe Lab protocols
   * water to 12mL
   * Make 1.1 and 0.6ml aliquots, store at -20.
 
+
 200x MgCl2-6H2O (1.23M):
   * 2.5g MgCl2-6H2O (203.31 mw)
   * water to 10mL
   * Make 1.1 and 0.6ml aliquots, store at -20.
+
 
 100x KCl (2.5M):
   * 5g KCl (74.55 mw)
   * water to 27mL
   * Make 1.1ml aliquots, store at -20.
 
+
 10x K2HPO4 (0.8M):
   * 7g K2HPO4 dibasic (174.18 mw)
   * water to 50mL
   * Store in fridge
+
 
 10x KH2PO4 (0.8M):
   * 5.4g KH2PO4 monobasic (136.09 mw)
   * water to 50mL
   * Store in fridge
 
+
 Buffer 1  (80mM K2HPO4 dibasic, pH~8.8):
   * 10mL 10X K2HPO4
   * 90mL water
+
 
 Buffer 2 (80mM KH2PO4 monobasic, “low” pH):
   * 10mL 10X KH2PO4
@@ -129,6 +131,7 @@ Buffer 2 (80mM KH2PO4 monobasic, “low” pH):
   * 1ml 100x KCl
   * water to 100mL
   * store in fridge
+
 
 Trapping buffer
   * 100mL Buffer 1
@@ -148,10 +151,12 @@ NADPH (0.2M):
   * 0.5mL Trapping buffer
   * Make 110ul aliquots, store at -20.
 
+
 GSH (Sigma G6529, 0.2M):
   * 0.1g GSH (307.32mw)
   * 1.5mL Trapping buffer
   * Make 260ul aliquots, store at -20.
+
 
 10X Cofactor Mix:
   * 100uL NADPH
@@ -168,6 +173,7 @@ GSH (Sigma G6529, 0.2M):
 30.5mM AFG:
   * 10mg AFG (A0138, 328.27mw)
   * 1ml DMSO
+
 
 AFG Internal Standard (122uM):
   * 40uL 30.5mM AFG
