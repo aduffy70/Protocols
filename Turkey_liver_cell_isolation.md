@@ -12,11 +12,11 @@ Adapted from Fraslin Cell Isolation Protocol
 1. Perfuse (25ml/min) with Perfusion buffer 1 until blanched (~50-250mL). Gently "massage" red areas to help clear blood clots and achieve more even blanching.
 1. Perfuse with Perfusion buffer 2 until digested (~250mL or when the liver stays dimpled when poked with a blunt tool). During perfusion put pressure on vena cava for a few seconds to inflate liver and assist in cell dissociation. Repeat every 2-3 minutes.
 1. Excise the liver and move to the sterile hood for remaining steps.
-1. Add 50-100mL Supplemented media and release hepatocytes by breaking the glissons capsule and gently probing with a cell scraper.
-1. Filter through cheesecloth to separate the undigested tissue. Pour ~50-100mL Supplemented media over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
+1. Add 50-100mL Perfusion buffer 1 and release hepatocytes by breaking the glissons capsule and gently probing with a cell scraper.
+1. Filter through cheesecloth to separate the undigested tissue. Pour ~50-100mL Perfusion buffer 1 over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
 1. Into 50mL falcon tubes, filter with nylon-mesh filters of pore sizes 100 (or 70um), and 40um to eliminate cell aggregates (turkey hepatocyctes are ~18uM—3 times smaller than mammalian hepatocytes).
 1. Pellet hepatocytes by centrifugation (3 minutes @ 200g). Discard supernatant.
-1. Gently resuspend cells in enough media to make 14mL per percoll tube. In 50mL falcon tubes, place 14mL suspended cells and 20mL Diluted percoll (45%) to make a final concentration of ~27% percoll. (Equation below for reference)
+1. Gently resuspend cells in enough Supplemented media to make 14mL per percoll tube. In 50mL falcon tubes, place 14mL suspended cells and 20mL Diluted percoll (45%) to make a final concentration of ~26.5% percoll. (Equation below for reference)
 ~~~
 [Final percoll] = [starting percoll] * Volume of percoll)
                   ---------------------------------------
@@ -26,9 +26,9 @@ Adapted from Fraslin Cell Isolation Protocol
   * Discard top ~ 5mL (Should be the lightest "garbage")
   * Collect as much supernatant as possible without mixing red blood cells back out of the pellet. Place supernatant in a new 50mL falcon tube and measure volume with a serological pipette.
   * Discard the pellet (more red blood cells than hepatocytes).
-1. Add media to the supernatant to reduce percoll from ~27% to ~21% according to the equation below:
+1. Add media to the supernatant to reduce percoll from ~26.5% to ~21% according to the equation below:
 ~~~
-Supp. media needed = 0.286 * Volume of percoll)
+Supp. media needed = 0.262 * Volume of percoll)
 ~~~
   * (General form of the equation for reference):
 ~~~
@@ -74,10 +74,15 @@ Supplemented media needed = 0.05 * Volume of supernatant
 
 ## Perfusion buffer 1
 1X HBSS + HEPES pH 7.4
-  * 120mL 5X Perfusion buffer
-  * 480mL water
+  * 160mL 5X Perfusion buffer
+  * 640mL water
   * Adjust pH to 7.4
   * Filter-sterilize.
+  * Makes enough for:
+    - 50ml for Buffer1 + Heparin to stop clotting and start blanching
+    - 250mL for blanching
+    - 300mL for making Perfusion buffer 2
+    - 200mL for breaking up the liver
 
 ## Perfusion buffer 2
 1X HBSS + HEPES, 1.3mM Calcium Chloride, ~5U/mL collagenase type 4, pH 7.4
