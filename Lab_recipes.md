@@ -115,7 +115,7 @@ Based on [Katenz _et al_ 2006](https://doi.org/10.1002/lt.20921)
 10% DMSO, 10% FBS, 0.2M Trehalose dihydrate
   * 1mL DMSO
   * 1mL Fetal Bovine Serum
-  * 760mg trahalose dihydrate
+  * 760mg trehalose dihydrate
   * Cells in Supplemented William's E media (or appropriate growth media) to 10mL
 
 Aliquot in cryotubes. Note estimated number of cells on the tube. Freeze 24 hours at -80 in Nalgene Cryo 1C freezing container, and then transfer to liquid nitrogen for long-term storage.
