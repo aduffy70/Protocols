@@ -107,3 +107,15 @@ This recipe yields final concentrations recommended for Qiagen EZ Competent Cell
   * 5mL ddH2O
 
 Shake to mix in Falcon tube. Store in refrigerator.
+
+# Cryopreservation media for preserving primary hepatocytes
+
+Based on [Katenz _et al_ 2006](https://doi.org/10.1002/lt.20921)
+
+10% DMSO, 10% FBS, 0.2M Trehalose dihydrate
+  * 1mL DMSO
+  * 1mL Fetal Bovine Serum
+  * 760mg trahalose dihydrate
+  * Cells in Supplemented William's E media (or appropriate growth media) to 10mL
+
+Aliquot in cryotubes. Note estimated number of cells on the tube. Freeze 24 hours at -80 in Nalgene Cryo 1C freezing container, and then transfer to liquid nitrogen for long-term storage.
