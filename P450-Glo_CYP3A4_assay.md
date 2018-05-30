@@ -57,7 +57,7 @@ Beetle D-luciferin Potassium Salt in Definitive Media at various concentrations:
 
   * 20uL Stock Beetle Luciferin solution
   * 480uL Definitive Media
-  * Use this Working Beetle Luciferin solution to make 0, 0.032, 0.16, 0.8, and 4uM standard dilutions (see setup sheet).
+  * Use this Working Beetle Luciferin solution to make 0, 0.032, 0.16, 0.8, and 4uM standard dilutions in media (see setup sheet).
 
 ## Luciferin Detection Reagent
 

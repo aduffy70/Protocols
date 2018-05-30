@@ -20,11 +20,13 @@ A No-cell control and vehicle controls (if some cells have been treated with AFB
 
 This version of the protocol should only be used on cells. Non-cell-based assays need additional reagents to jump-start the proluciferin/P450 reaction.
 
+This CYP1A2 version needs PBS in place of media because the L-cysteine in media interferes with assays. The Substrate PBS needs Salicylamide added to inhibit phase II conjugation of CYP products from CYP1A2/Luciferin-1A2. 
+
 
 # Process
 
 1. Start with cells cultured in opaque white 96 well plates, treated as desired (_e.g._, control vs AFB) for 24-72 hours.
-1. Prepare Substrate Media.
+1. Prepare Substrate PBS.
 1. Remove media from cells and wash with PBS. Remove the PBS.
 1. Add 50uL Substrate PBS to each cell well and control well.
 1. Incubate at 37C 5% CO~2~ for 30-60 minutes.
@@ -60,11 +62,11 @@ Beetle D-luciferin Potassium Salt in PBS at various concentrations:
   * 7.85mL mqWater
   * Aliquot and store in -80 freezer.
 
-### Working Beetle Luciferin solution (80uM in media)
+### Working Beetle Luciferin solution (80uM in PBS)
 
   * 20uL Stock Beetle Luciferin solution
   * 480uL PBS
-  * Use this Working Beetle Luciferin solution to make 0, 0.032, 0.16, 0.8, and 4uM standard dilutions (see setup sheet).
+  * Use this Working Beetle Luciferin solution to make 0, 0.032, 0.16, 0.8, and 4uM standard dilutions in PBS (see setup sheet).
 
 ## Luciferin Detection Reagent
 
