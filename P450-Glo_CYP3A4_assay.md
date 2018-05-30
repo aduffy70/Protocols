@@ -16,7 +16,7 @@ Because the light detection needs to happen in opaque white plates, either the c
 
 A standard curve should be generated to quantify how much light is produced by different amounts of D-luciferin. Make multiple dilutions from a known quantity of D-luciferin (Beetle D-luciferin, NOT provided with the kit), and react them with the Luciferin Detection Agent using the same concentrations/volumes as the experimental wells.
 
-A No-cell control and vehicle controls (if some cells have been treated with AFB in DMSO, for example) are needed. The zero D-luciferin dilution from the standard curve reactions can double as the no-cell control.
+A No-cell control and vehicle controls (if some cells have been treated with AFB in DMSO, for example) are needed.
 
 This version of the protocol should only be used on cells. Non-cell-based assays need additional reagents to jump-start the proluciferin/P450 reaction.
 
@@ -24,7 +24,7 @@ This version of the protocol should only be used on cells. Non-cell-based assays
 # Process
 
 1. Start with cells cultured in opaque white 96 well plates, treated as desired (_e.g._, control vs AFB) for 24-72 hours.
-1. Prepare Substrate Media
+1. Prepare Substrate Media.
 1. Remove media from cells and wash with media or PBS. Remove the media or PBS.
 1. Add 50uL Substrate Media to each cell well and control well.
 1. Incubate at 37C 5% CO~2~ for 3-4 hours.
@@ -51,13 +51,13 @@ Beetle D-luciferin Potassium Salt in Definitive Media at various concentrations:
 
   * 5mg Beetle Luciferin Potassium Salt
   * 7.85mL mqWater
-  * Aliquot and store in -80 freezer
+  * Aliquot and store in -80 freezer.
 
 ### Working Beetle Luciferin solution (80uM in media)
 
-  * 20uL Stock solution
+  * 20uL Stock Beetle Lucifern solution
   * 480uL Definitive Media
-  * Use Working Beetle Luciferin solution to make 0, 0.032, 0.16, 0.8, and 4uM standard dilutions (see setup sheet)
+  * Use this Working Beetle Luciferin solution to make 0, 0.032, 0.16, 0.8, and 4uM standard dilutions (see setup sheet).
 
 ## Luciferin Detection Reagent
 
