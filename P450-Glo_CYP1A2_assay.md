@@ -1,6 +1,6 @@
 ---
 layout: page
-title: P450-Glo CYP3A4 assay
+title: P450-Glo CYP1A2 assay
 categories: protocol
 ---
 
@@ -8,9 +8,9 @@ Adapted from [manufacturers protocol][1]
 
 # General description
 
-Measures cytochrome P450 CYP activity--specifically CYP3A4.
+Measures cytochrome P450 CYP activity--specifically CYP1A2.
 
-A proluciferin substrate provided in the kit (Luciferin-PFBE) is acted upon by the CYP enzymes in the cultured cells to be tested to produce D-luciferin. Luciferin Detection Agent  provided in the kit is added to the cells, which lyses them and reacts with the released D-luciferin to produce light. More light = more D-luciferin = more P450 activity.
+A proluciferin substrate provided in the kit (Luciferin-1A2) is acted upon by the CYP enzymes in the cultured cells to be tested to produce D-luciferin. Luciferin Detection Agent  provided in the kit is added to the cells, which lyses them and reacts with the released D-luciferin to produce light. More light = more D-luciferin = more P450 activity.
 
 Because the light detection needs to happen in opaque white plates, either the cells need to be cultured in white plates (preferred method) or the lysate + Luciferin Detection Agent needs to be transfered from a normal culture plate to a white plate before measuring luminescence, taking care to transfer equal volumes for each well.
 
@@ -25,9 +25,9 @@ This version of the protocol should only be used on cells. Non-cell-based assays
 
 1. Start with cells cultured in opaque white 96 well plates, treated as desired (_e.g._, control vs AFB) for 24-72 hours.
 1. Prepare Substrate Media.
-1. Remove media from cells and wash with media or PBS. Remove the media or PBS.
-1. Add 50uL Substrate Media to each cell well and control well.
-1. Incubate at 37C 5% CO~2~ for 3-4 hours.
+1. Remove media from cells and wash with PBS. Remove the PBS.
+1. Add 50uL Substrate PBS to each cell well and control well.
+1. Incubate at 37C 5% CO~2~ for 30-60 minutes.
 1. During incubation, prepare Luciferin Detection Reagent and Standard Dilutions.
 1. Add 50uL of appropriate Standard Dilution to each standard well.
 1. To each cell well, control well, and standard well add 50uL Luciferin Detection Reagent.
@@ -37,15 +37,22 @@ This version of the protocol should only be used on cells. Non-cell-based assays
 
 # RECIPES
 
-## Substrate Media
-50uM Luciferin-PFBE in Definitive Media
+## Salicylamide stock
+3M salicylamide in DMSO
+
+  * 411 mg salicylamide
+  * DMSO to 1mL
+
+## Substrate PBS
+50uM Luciferin-1A2, 3mM salicylamide in PBS
 
 Per well of a 96 well plate (multiply by number of cell wells and control wells plus 5-10% for pipette loss):
-  * 1.25uL Luciferin-PFBE (provided with kit)
-  * 48.75uL Definitive Media
+  * 0.05uL Luciferin-1A2 (provided with kit)
+  * 0.05uL _fresh_ 3M Salicylamide stock
+  * 49.90uL PBS
 
 ## Standard Dilutions
-Beetle D-luciferin Potassium Salt in Definitive Media at various concentrations:
+Beetle D-luciferin Potassium Salt in PBS at various concentrations:
 
 ### Stock Beetle Luciferin solution (2mM in water)
 
@@ -56,7 +63,7 @@ Beetle D-luciferin Potassium Salt in Definitive Media at various concentrations:
 ### Working Beetle Luciferin solution (80uM in media)
 
   * 20uL Stock Beetle Luciferin solution
-  * 480uL Definitive Media
+  * 480uL PBS
   * Use this Working Beetle Luciferin solution to make 0, 0.032, 0.16, 0.8, and 4uM standard dilutions (see setup sheet).
 
 ## Luciferin Detection Reagent
