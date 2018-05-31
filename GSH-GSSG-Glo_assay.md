@@ -14,9 +14,9 @@ We measure Total Glutathione (GSH and GSSG) and Oxidized Glutathione (GSSG only)
 
 The Total Glutathione assay works by lysing the cells and reducing GSSG to GSH with Total Glutathione Lysis Reagent (provided in the kit) so all the Glutathione is GSH. Then the GSH and a Luciferin Generation Reagent (provided) are acted upon by GST (provided) producing Luciferin. Luciferin Detection Reagent (provided) reacts with the Luciferin to produce light. More light = More Luciferin = More GSH and GSSG.
 
-The GSSG-only assay works similarly, but uses a Oxidized Glutathione Lysis Reagent (provided) that lyses the cells, and blocks the GSH present in the cells, leaving only the GSSG to be converted to GSH. The rest of the assay is the same as above. More light = More Luciferin = More GSSG.
+The GSSG-only assay works similarly, but uses a Oxidized Glutathione Lysis Reagent (provided) that lyses the cells and blocks the GSH present in the cells, leaving only the GSSG to be converted to GSH. The rest of the assay is the same as above. More light = More Luciferin = More GSSG.
 
-Because the light detection needs to happen in opaque white plates, either the cells need to be cultured in white plates (preferred method) or the lysate + Luciferin Detection Agent needs to be transfered from a normal culture plate to a white plate before measuring luminescence, taking care to transfer equal volumes for each well.
+Because the light detection needs to happen in opaque white plates, either the cells need to be cultured in white plates (preferred method) or the lysate + Reagents need to be transfered from a normal culture plate to a white plate before measuring luminescence, taking care to transfer equal volumes for each well.
 
 A standard curve should be generated to quantify how much light is produced by different amounts of GSH using the Total Glutathione assay. Make multiple dilutions from a known quantity of GSH (provided with the kit), and run them through the entire assay process.
 
@@ -27,7 +27,7 @@ This assay is sensitive so it requires fewer cells per plate than other assays. 
 # Process
 
 1. Start with cells cultured in opaque white 96 well plates, treated as desired (_e.g._, control vs AFB) for 24-72 hours. Promega recommends only 10000-20000 hepatocyte cells per well.
-1. Prepare Total Glutathione Lysis Reagent and Oxidized Glutathione Lysis Reagent, and Standard Dilutions.
+1. Prepare Total Glutathione Lysis Reagent, Oxidized Glutathione Lysis Reagent, and Standard Dilutions.
 1. Remove media from cells.
 1. Add 5uL of appropriate Standard Dilution to each standard well.
 1. Add 50uL Total Glutathione Reagent or Oxidized Glutathione Reagent to each treated well, vehicle control well, and untreated control well.
