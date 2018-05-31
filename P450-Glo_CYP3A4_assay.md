@@ -27,7 +27,7 @@ This version of the protocol should only be used on cells. Non-cell-based assays
 1. Prepare Substrate Media.
 1. Remove media from cells and wash with media or PBS. Remove the media or PBS.
 1. Add 50uL Substrate Media to each cell well and control well.
-1. Incubate at 37C 5% CO~2~ for 3-4 hours.
+1. Incubate at 37C 5% CO<sub>2</sub> for 3-4 hours.
 1. During incubation, prepare Luciferin Detection Reagent and Standard Dilutions.
 1. Add 50uL of appropriate Standard Dilution to each standard well.
 1. To each cell well, control well, and standard well add 50uL Luciferin Detection Reagent.

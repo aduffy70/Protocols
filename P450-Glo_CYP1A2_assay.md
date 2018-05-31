@@ -20,7 +20,7 @@ A No-cell control and vehicle controls (if some cells have been treated with AFB
 
 This version of the protocol should only be used on cells. Non-cell-based assays need additional reagents to jump-start the proluciferin/P450 reaction.
 
-This CYP1A2 version needs PBS in place of media because the L-cysteine in media interferes with assays. The Substrate PBS needs Salicylamide added to inhibit phase II conjugation of CYP products from CYP1A2/Luciferin-1A2. 
+This CYP1A2 version needs PBS in place of media because the L-cysteine in media interferes with assays. The Substrate PBS needs Salicylamide added to inhibit phase II conjugation of CYP products from CYP1A2/Luciferin-1A2.
 
 
 # Process
@@ -29,7 +29,7 @@ This CYP1A2 version needs PBS in place of media because the L-cysteine in media 
 1. Prepare Substrate PBS.
 1. Remove media from cells and wash with PBS. Remove the PBS.
 1. Add 50uL Substrate PBS to each cell well and control well.
-1. Incubate at 37C 5% CO~2~ for 30-60 minutes.
+1. Incubate at 37C 5% CO<sub>2</sub> for 30-60 minutes.
 1. During incubation, prepare Luciferin Detection Reagent and Standard Dilutions.
 1. Add 50uL of appropriate Standard Dilution to each standard well.
 1. To each cell well, control well, and standard well add 50uL Luciferin Detection Reagent.
