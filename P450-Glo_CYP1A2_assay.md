@@ -22,6 +22,8 @@ This version of the protocol should only be used on cells. Non-cell-based assays
 
 This CYP1A2 version needs PBS in place of media because the L-cysteine in media interferes with assays. The Substrate PBS needs Salicylamide added to inhibit phase II conjugation of CYP products from CYP1A2/Luciferin-1A2.
 
+This CYP1A2 version needs D-Cysteine in the Detection reagent to complete the coversion of the products to D-luciferin.
+
 
 # Process
 
@@ -35,6 +37,8 @@ This CYP1A2 version needs PBS in place of media because the L-cysteine in media 
 1. To each cell well, control well, and standard well add 50uL Luciferin Detection Reagent.
 1. Mix briefly on a plate shaker to form lysate.
 1. Read luminescence from plate using __XXX__ seconds per plate integration time (Promega recommends 0.25-1 second). Do not use a fluorometer and do not use filters with the luminometer.
+
+Note- Luminescence values seem to get lower in repeated measurements--possible due to exposure to light? Cover the plate to minimize exposure before taking readings.
 
 
 # RECIPES
@@ -71,6 +75,7 @@ Beetle D-luciferin Potassium Salt in PBS at various concentrations:
 ## Luciferin Detection Reagent
 
   * Add entire bottle of reconstitution buffer (provided with kit) to amber bottle of lypholized Luciferin Detection Reagent (provided with kit).
+  * Add 20uL D-Cysteine (in the kit)
   * Mix by swirling or inverting several times.
   * The reconstituted Luciferin Detection Reagent can be stored at room temperature for 24 hours or at 4C for 1 week without loss of activity. For long-term storage, store at –20°C for up to 3 months. Be sure to mix the thawed Luciferin Detection reagent well before use.
 
