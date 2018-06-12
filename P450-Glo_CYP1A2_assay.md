@@ -36,7 +36,7 @@ This CYP1A2 version needs D-Cysteine in the Detection reagent to complete the co
 1. Add 50uL of appropriate Standard Dilution to each standard well.
 1. To each cell well, control well, and standard well add 50uL Luciferin Detection Reagent.
 1. Mix briefly on a plate shaker to form lysate.
-1. Read luminescence from plate using __XXX__ seconds per plate integration time (Promega recommends 0.25-1 second). Do not use a fluorometer and do not use filters with the luminometer.
+1. Read luminescence from plate using 1 seconds per plate integration time (Promega recommends 0.25-1 second). Do not use a fluorometer and do not use filters with the luminometer.
 
 Note- Luminescence values seem to get lower in repeated measurements--possible due to exposure to light? Cover the plate to minimize exposure before taking readings.
 
