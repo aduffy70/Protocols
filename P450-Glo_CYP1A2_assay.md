@@ -48,6 +48,7 @@ Note- Luminescence values seem to get lower in repeated measurements--possible d
 
   * 411 mg salicylamide
   * DMSO to 1mL
+  * Use immediately. Do not store.
 
 ## Substrate PBS
 50uM Luciferin-1A2, 3mM salicylamide in PBS
@@ -56,6 +57,7 @@ Per well of a 96 well plate (multiply by number of cell wells and control wells 
   * 0.05uL Luciferin-1A2 (provided with kit)
   * 0.05uL _fresh_ 3M Salicylamide stock
   * 49.90uL PBS
+  * Use immediately. Do not store.
 
 ## Standard Dilutions
 Beetle D-luciferin Potassium Salt in PBS at various concentrations:
@@ -71,6 +73,7 @@ Beetle D-luciferin Potassium Salt in PBS at various concentrations:
   * 20uL Stock Beetle Luciferin solution
   * 480uL PBS
   * Use this Working Beetle Luciferin solution to make 0, 0.032, 0.16, 0.8, and 4uM standard dilutions in PBS (see setup sheet).
+  * Use immediately. Do not store.
 
 ## Luciferin Detection Reagent
 
