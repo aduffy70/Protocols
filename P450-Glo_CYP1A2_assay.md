@@ -20,9 +20,7 @@ A No-cell control and vehicle controls (if some cells have been treated with AFB
 
 This version of the protocol should only be used on cells. Non-cell-based assays need additional reagents to jump-start the proluciferin/P450 reaction.
 
-This CYP1A2 version needs PBS in place of media because the L-cysteine in media interferes with assays. The Substrate PBS needs Salicylamide added to inhibit phase II conjugation of CYP products from CYP1A2/Luciferin-1A2.
-
-This CYP1A2 version needs D-Cysteine in the Detection reagent to complete the coversion of the products to D-luciferin.
+This CYP1A2 version needs PBS in place of media because the L-cysteine in media interferes with assays. The Substrate PBS for this version needs Salicylamide added to inhibit phase II conjugation of CYP products from CYP1A2/Luciferin-1A2. The Detection reagent for this version needs D-Cysteine to complete the conversion of the products to D-luciferin.
 
 
 # Process
@@ -36,7 +34,7 @@ This CYP1A2 version needs D-Cysteine in the Detection reagent to complete the co
 1. Add 50uL of appropriate Standard Dilution to each standard well.
 1. To each cell well, control well, and standard well add 50uL Luciferin Detection Reagent.
 1. Mix briefly on a plate shaker to form lysate.
-1. Read luminescence from plate using 1 seconds per plate integration time (Promega recommends 0.25-1 second). Do not use a fluorometer and do not use filters with the luminometer.
+1. Read luminescence from plate using 1 second integration time (Promega recommends 0.25-1 second). Do not use a fluorometer and do not use filters with the luminometer.
 
 Note- Luminescence values seem to get lower in repeated measurements--possible due to exposure to light? Cover the plate to minimize exposure before taking readings.
 
@@ -46,8 +44,8 @@ Note- Luminescence values seem to get lower in repeated measurements--possible d
 ## Salicylamide stock
 3M salicylamide in DMSO
 
-  * 411 mg salicylamide
-  * DMSO to 1mL
+  * 200 mg salicylamide
+  * DMSO to 500uL
   * Use immediately. Do not store.
 
 ## Substrate PBS
@@ -72,7 +70,7 @@ Beetle D-luciferin Potassium Salt in PBS at various concentrations:
 
   * 20uL Stock Beetle Luciferin solution
   * 480uL PBS
-  * Use this Working Beetle Luciferin solution to make 0, 0.032, 0.16, 0.8, and 4uM standard dilutions in PBS (see setup sheet).
+  * Use this Working Beetle Luciferin solution to make 0, 0.032, 0.16, 0.8, and 4uM standard dilutions in PBS (see setup sheet). Note- those are the dilutions we make, but when the Detection Reagent is added later it will cut these concentrations in half, so the actual final concentrations for the standard curve are 0, 0.016, 0.08, 0.4, and 2uM.
   * Use immediately. Do not store.
 
 ## Luciferin Detection Reagent
