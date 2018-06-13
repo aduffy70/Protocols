@@ -45,7 +45,7 @@ Note- Luminescence values seem to get lower in repeated measurements--possible d
 3M salicylamide in DMSO
 
   * 200 mg salicylamide
-  * DMSO to 500uL
+  * 350mL DMSO (Makes 500uL total)
   * Use immediately. Do not store.
 
 ## Substrate PBS
