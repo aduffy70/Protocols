@@ -16,17 +16,17 @@ The Total Glutathione assay works by lysing the cells and reducing GSSG to GSH w
 
 The GSSG-only assay works similarly, but uses a Oxidized Glutathione Lysis Reagent (provided) that lyses the cells and blocks the GSH present in the cells, leaving only the GSSG to be converted to GSH. The rest of the assay is the same as above. More light = More Luciferin = More GSSG.
 
-Because the light detection needs to happen in opaque white plates, either the cells need to be cultured in white plates (preferred method) or the lysate + Reagents need to be transfered from a normal culture plate to a white plate before measuring luminescence, taking care to transfer equal volumes for each well.
+Because the light detection needs to happen in plates with black or white sided wells (not clear), either the cells need to be cultured in those plates (preferred method) or the lysate + Luciferin Detection Agent needs to be transfered from a normal culture plate to a black or white plate before measuring luminescence, taking care to transfer equal volumes for each well. Promega recommends white plates for highest luminescence readings, but black work for the range of luminescence we are seeing.
 
 A standard curve should be generated to quantify how much light is produced by different amounts of GSH using the Total Glutathione assay. Make multiple dilutions from a known quantity of GSH (provided with the kit), and run them through the entire assay process.
 
 A vehicle control (if some cells have been treated with AFB in DMSO, for example) is needed for both assays. A No-cell control only needs to be run for one of the assays (and the zero glutathione reactions of the standard curve serve as the no-cell controls)
 
-This assay is sensitive so it requires fewer cells per plate than other assays. Too many cells may result in luminescence levels above the linear portion of the standard curve.
+This assay is sensitive so it requires fewer cells per plate than other assays, but our normal plating technique gave luminescence levels in the linear portion of the standard curve.
 
 # Process
 
-1. Start with cells cultured in opaque white 96 well plates, treated as desired (_e.g._, control vs AFB) for 24-72 hours. Promega recommends only 10000-20000 hepatocyte cells per well.
+1. Start with cells cultured in 96 well plates, treated as desired (_e.g._, control vs AFB) for 24-72 hours.
 1. Prepare Total Glutathione Lysis Reagent, Oxidized Glutathione Lysis Reagent, and Standard Dilutions.
 1. Remove media from cells.
 1. Add 5uL of appropriate Standard Dilution to each standard well.
@@ -39,7 +39,7 @@ This assay is sensitive so it requires fewer cells per plate than other assays. 
 1. Prepare Luciferin Detection Reagent.
 1. Add 100uL Luciferin Detection Reagent to each well.
 1. Shake briefly and equilibriate 15 minutes at room temperature.
-1. Read luminescence from plate using __XXX__ seconds per plate integration time (Promega recommends 0.25-1 second). Do not use a fluorometer and do not use filters with the luminometer.
+1. Read luminescence from plate using 1 seconds per plate integration time (Promega recommends 0.25-1 second). Do not use a fluorometer and do not use filters with the luminometer.
 
 
 # RECIPES
