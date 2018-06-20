@@ -12,7 +12,7 @@ Measures cytochrome P450 CYP activity--specifically CYP1A2.
 
 A proluciferin substrate provided in the kit (Luciferin-1A2) is acted upon by the CYP enzymes in the cultured cells to be tested to produce D-luciferin. Luciferin Detection Agent  provided in the kit is added to the cells, which lyses them and reacts with the released D-luciferin to produce light. More light = more D-luciferin = more P450 activity.
 
-Because the light detection needs to happen in opaque white plates, either the cells need to be cultured in white plates (preferred method) or the lysate + Luciferin Detection Agent needs to be transfered from a normal culture plate to a white plate before measuring luminescence, taking care to transfer equal volumes for each well.
+Because the light detection needs to happen in plates with black or white sided wells (not clear), either the cells need to be cultured in those plates (preferred method) or the lysate + Luciferin Detection Agent needs to be transfered from a normal culture plate to a black or white plate before measuring luminescence, taking care to transfer equal volumes for each well. Promega recommends white plates for highest luminescence readings, but black work for the range of luminescence we are seeing.
 
 A standard curve should be generated to quantify how much light is produced by different amounts of D-luciferin. Make multiple dilutions from a known quantity of D-luciferin (Beetle D-luciferin, NOT provided with the kit), and react them with the Luciferin Detection Agent using the same concentrations/volumes as the experimental wells.
 
@@ -25,7 +25,7 @@ This CYP1A2 version needs PBS in place of media because the L-cysteine in media 
 
 # Process
 
-1. Start with cells cultured in opaque white 96 well plates, treated as desired (_e.g._, control vs AFB) for 24-72 hours.
+1. Start with cells cultured in 96 well plates, treated as desired (_e.g._, control vs AFB) for 24-72 hours.
 1. Prepare Substrate PBS.
 1. Remove media from cells and wash with PBS. Remove the PBS.
 1. Add 50uL Substrate PBS to each cell well and control well.
@@ -36,8 +36,6 @@ This CYP1A2 version needs PBS in place of media because the L-cysteine in media 
 1. Mix briefly on a plate shaker to form lysate.
 1. Read luminescence from plate using 1 second integration time (Promega recommends 0.25-1 second). Do not use a fluorometer and do not use filters with the luminometer.
 
-Note- Luminescence values seem to get lower in repeated measurements--possible due to exposure to light? Cover the plate to minimize exposure before taking readings.
-
 
 # RECIPES
 
@@ -45,7 +43,7 @@ Note- Luminescence values seem to get lower in repeated measurements--possible d
 3M salicylamide in DMSO
 
   * 200 mg salicylamide
-  * 350mL DMSO (Makes 500uL total)
+  * 350uL DMSO (Makes 500uL total)
   * Use immediately. Do not store.
 
 ## Substrate PBS
