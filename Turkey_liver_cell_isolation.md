@@ -29,17 +29,17 @@ Adapted from [Fraslin chicken hepatocyte isolation protocol][1]
   * Discard the pellet (more red blood cells than hepatocytes).
 1. Add media to the supernatant to reduce percoll from 27% to 21% according to the equation below:
 ~~~
-Supp. media needed = 0.286 * Volume of percoll)
+Supp. media needed = 0.286 * Volume of supernatant)
 ~~~
   * (General form of the equation for reference):
 ~~~
-Supp. media needed = (([starting percoll] - [desired percoll]) * Volume of percoll)
+Supp. media needed = (([starting percoll] - [desired percoll]) * Volume of supernatant)
                      --------------------------------------------------------------
                                           [desired percoll]
 ~~~
 
 1. Pellet hepatocytes by centrifugation (5 minutes @ 100g). Discard supernatant.
-1. Wash away remaining percoll by adding ~20mL Supplemented media and spinning 3 minutes @ 200g. Discard supernatant. Repeat wash at least once, but spin 1 minute @ 200g.
+1. Wash away remaining percoll by adding 20-30mL Supplemented media and spinning 3 minutes @ 200g. Discard supernatant. Repeat wash at least once, but spin 1 minute @ 200g.
 1. Gently resuspend and adjust volume of hepatocytes to ~5-10mL with Supplemented media. Measure volume with pipette to get accurate volume for concentration calculations.
 1. Count cells and determine viability with hemocytometer and trypan blue. Calculate and record viable cell concentration.
 1. Plate 125000 cells/well with 100uL Supplemented medium in 96-well plates. Incubate at 37C.
