@@ -7,7 +7,8 @@ categories: protocol
 Adapted from [Fraslin chicken hepatocyte isolation protocol][1]
 
 1. Warm to 37C: Perfusion buffer 1, Perfusion buffer 2, Supplemented media. Set heatblock to 42C to keep buffers slightly warmer during perfusion.
-1. Insert catheter into the inferior mesenteric artery and suture in place. Snip vena cava between liver and heart to allow outflow.
+1. Work _in situ_ on a freshly killed turkey (~5-7 week old Domestic turkey = ~2-4kg).
+1. Insert catheter (~18ga X 2") into the inferior mesenteric artery and suture in place. Snip vena cava between liver and heart to allow outflow.
 1. Add 0.25-0.5mL Heparin (~875U/kg = 0.5mL Heparin (4400U/mL) for a 2.2kg bird) to a 50mL aliquot of Perfusion buffer 1. Perfuse (17mL/min) to start blanching while preventing clotting.
 1. Perfuse (25ml/min) with Perfusion buffer 1 until blanched (~50-250mL). Gently "massage" red areas to help clear blood clots and achieve more even blanching.
 1. Perfuse with Perfusion buffer 2 until digested (~250mL or when the liver stays dimpled when poked with a blunt tool). During perfusion put pressure on vena cava for a few seconds to inflate liver and assist in cell dissociation. Repeat every 2-3 minutes.
