@@ -4,7 +4,7 @@ title: Turkey liver cell isolation
 categories: protocol
 ---
 
-Adapted from Fraslin Cell Isolation Protocol
+Adapted from [Fraslin chicken hepatocyte isolation protocol][1]
 
 1. Warm to 37C: Perfusion buffer 1, Perfusion buffer 2, Supplemented media. Set heatblock to 42C to keep buffers slightly warmer during perfusion.
 1. Insert catheter into the inferior mesenteric artery and suture in place. Snip vena cava between liver and heart to allow outflow.
@@ -16,7 +16,7 @@ Adapted from Fraslin Cell Isolation Protocol
 1. Filter through cheesecloth to separate the undigested tissue. Pour ~50-100mL Perfusion buffer 1 over the undigested liver in the cheesecloth to maximize cell yield. Discard undigested tissue with cheesecloth.
 1. Into 50mL falcon tubes, filter with nylon-mesh filters of pore sizes 100 (or 70um), and 40um to eliminate cell aggregates (turkey hepatocyctes are ~18uM—3 times smaller than mammalian hepatocytes).
 1. Pellet hepatocytes by centrifugation (3 minutes @ 200g). Discard supernatant.
-1. Gently resuspend cells in enough Supplemented media to make 14mL per percoll tube. In 50mL falcon tubes, place 14mL suspended cells and 20mL Diluted percoll (45%) to make a final concentration of ~26.5% percoll. (Equation below for reference)
+1. Gently resuspend cells in enough Supplemented media to make 13.25mL per percoll tube. In 50mL falcon tubes, place 13.25mL suspended cells and 20mL Diluted percoll (45%) to make a final concentration of 27% percoll. (Equation below for reference)
 ~~~
 [Final percoll] = [starting percoll] * Volume of percoll)
                   ---------------------------------------
@@ -26,9 +26,9 @@ Adapted from Fraslin Cell Isolation Protocol
   * Discard top ~ 5mL (Should be the lightest "garbage")
   * Collect as much supernatant as possible without mixing red blood cells back out of the pellet. Place supernatant in a new 50mL falcon tube and measure volume with a serological pipette.
   * Discard the pellet (more red blood cells than hepatocytes).
-1. Add media to the supernatant to reduce percoll from ~26.5% to ~21% according to the equation below:
+1. Add media to the supernatant to reduce percoll from 27% to 21% according to the equation below:
 ~~~
-Supp. media needed = 0.262 * Volume of percoll)
+Supp. media needed = 0.286 * Volume of percoll)
 ~~~
   * (General form of the equation for reference):
 ~~~
@@ -37,18 +37,12 @@ Supp. media needed = (([starting percoll] - [desired percoll]) * Volume of perco
                                           [desired percoll]
 ~~~
 
-1. Pellet hepatocytes by centrifugation (5 minutes @ 100g).
-  * Discard top ~ 5mL
-  * Collect as much supernatant as possible without disturbing pellet.
-  * Resuspend pellet in ~5mL Supplemented media and place in 37C bath while processing supernatant.
-  * Measure supernatant and repeat, this time reducing percoll from 21% to 20% using equation below. Spin again. Combine pellet from 20% percoll spin with pellet from 21% percoll spin.
-~~~
-Supplemented media needed = 0.05 * Volume of supernatant
-~~~
-1. Wash away remaining percoll by adding ~20mL Supplemented media and spinning 3 minutes @ 200g. Discard supernatant. Repeat (at least twice) but spin 1 minute @ 200g.
-1. Gently resuspend and adjust volume of hepatocytes to ~2-5mL with Supplemented media.
-1. Count cells and determine viability with hemocytometer and trypan blue.
-1. Plate ~70000 cells/well with 200uL Supplemented medium in 96-well plates. Incubate at 37C.
+1. Pellet hepatocytes by centrifugation (5 minutes @ 100g). Discard supernatant.
+1. Wash away remaining percoll by adding ~20mL Supplemented media and spinning 3 minutes @ 200g. Discard supernatant. Repeat wash at least once, but spin 1 minute @ 200g.
+1. Gently resuspend and adjust volume of hepatocytes to ~5-10mL with Supplemented media. Measure volume with pipette to get accurate volume for concentration calculations.
+1. Count cells and determine viability with hemocytometer and trypan blue. Calculate and record viable cell concentration.
+1. Plate 125000 cells/well with 100uL Supplemented medium in 96-well plates. Incubate at 37C.
+1. Optionally Cryogenically preserve excess cells.
 1. Warm to 37C: Supplemented media, Definitive media.
 1. After 2 to 3 h remove media from plated cells, gently wash cells once with Supplemented media, and add 200uL of Definitive media. Incubate.
 1. Change media every other day.
@@ -80,9 +74,10 @@ Supplemented media needed = 0.05 * Volume of supernatant
   * Filter-sterilize.
   * Makes enough for:
     - 50ml for Buffer1 + Heparin to stop clotting and start blanching
-    - 250mL for blanching
-    - 300mL for making Perfusion buffer 2
+    - 250mL for blanching (excess can also be used for breaking up the liver)
     - 200mL for breaking up the liver
+    - 300mL for making Perfusion buffer 2
+
 
 ## Perfusion buffer 2
 1X HBSS + HEPES, 1.3mM Calcium Chloride, ~5U/mL collagenase type 4, pH 7.4
@@ -120,3 +115,5 @@ To make Diluted Percoll (45%):
   * 100mL 1X HBSS + HEPES
   * Adjust pH to 7.4 with 30% HCl (it should take ~250uL).
   * Note- Only use exactly 30% HCL for this! If you use a stronger or weaker solution the final percoll% will be different. Even small changes to the percoll% will have large effects on the size and cleanliness of the cell pellet.
+
+[1]: https://www.ncbi.nlm.nih.gov/pubmed/1429363
