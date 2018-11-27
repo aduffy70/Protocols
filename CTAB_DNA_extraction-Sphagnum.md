@@ -3,7 +3,7 @@ layout: page
 title: CTAB DNA extraction- Sphagnum
 categories: protocol
 ---
-Based on the Shaw Lab protocol
+Based on the Shaw Lab protocol (S.B.B 11/15/96) and recommendations from Blanka Aguero
 
 # Process
 
