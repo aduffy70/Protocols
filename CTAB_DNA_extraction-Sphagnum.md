@@ -5,7 +5,9 @@ categories: protocol
 ---
 Based on the Shaw Lab protocol
 
-# Grinding and extracting with CTAB buffer
+# Process
+
+## Grinding and extracting with CTAB buffer
 
 1. Add 2 stainless steel ball bearings to each racked 1.2ml “collection” tube using the dispenser.
 1. Sample a small amount of tissue into tubes, pushing the tissue into the bottom of the tube. Save the remainder of the stem in a mini-packet.
@@ -22,19 +24,19 @@ Based on the Shaw Lab protocol
 1. Vortex well to get the powdered tissue mixed with the extraction buffer. Cap the tubes with the tube roller and incubate the crude extract in a 60--65C water bath for 30--60 min.  Place weighted lid on top of capped tubes to prevent opening during the incubation.
 1. Remove tubes from hot water bath without dislodging the weight holding the caps on. Set aside and cool for 5--10 minutes before removing the weight. Blot any moisture from the tops of the tubes and reseat caps with tube roller. Spin very briefly to collect all liquid in the bottoms of the tubes.
 
-# Removal of proteins with chloroform:isoamyl alcohol
+## Removal of proteins with chloroform:isoamyl alcohol
 
 1. Add an equal volume (400µl) of chloroform:IAA (24:1) to plant extract.  You can do this with the 1250 multichannel pipetter, if you want, but decant the chloroform:IAA into a glass dish for pipetting (the mixture will dissolve the plastic troughs). Cap tubes securely and mix by inversion (30-50x) to produce an emulsion.
 1. Centrifuge balanced racked tubes for 5 min. at 4500 rpm in the plate centrifuge to separate the phases.
 1. Remove aqueous (top) phase to clean labeled collection tubes using a p1000, or using the multichannel pipet with the adjustable spacing.  Avoid the interface!
 
-# Precipitation, washing, and drying of DNA
+## Precipitation, washing, and drying of DNA
 
 1. Add an equal volume of cold isopropanol to aqueous phase.  Mix gently by inversion.  Precipitate at -20C for 20+ min.  Can precipitate overnight if necessary.
 1. Centrifuge for 20 min. at 4500 rpm in the plate centrifuge.  Pour or aspirate off supernatant.
 1. Wash pellet with 500µl 70% ethanol (pellet will not resuspend).  Spin 5 min. at 4500 rpm to secure pellet to tube side.  Carefully aspirate off supernatant.
 1. Dry pellet briefly in Speed-vac (~10 min. at RT) or air dry overnight.
-1. Resuspend pellet in 25uL ddH~2~0. (Optional: incubate for 5 min. at 60C to assist with resuspension.)
+1. Resuspend pellet in 25uL water. (Optional: incubate for 5 min. at 60C to assist with resuspension.)
 
 
 # Recipes
@@ -45,7 +47,7 @@ Based on the Shaw Lab protocol
   * 8.2g NaCl
   * 4mL 0.5M EDTA pH8 (keep solution sterile)
   * 2g CTAB
-  * prewarmed ddH~2~0 to 100mL
+  * prewarmed water to 100mL
 
 Stir on warm hotplate (don't boil) until CTAB is in solution. Sterile filter (0.22um disposable vacuum filter). Place solution in pre-autoclaved, sterile bottle. Store in fridge and pre-warm for use.  
 
