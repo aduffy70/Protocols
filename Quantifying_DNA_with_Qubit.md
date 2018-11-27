@@ -19,28 +19,22 @@ Equipment and supplies:
     * One for the low standard
     * One for the high standard
 1. Mix enough working solution for samples, standards, and pipette loss. Vortex well and keep out of light. Per sample:
-
 | Qubit solution | HS Qubit reagent |
 | -------------- | ---------------- |
 | 199uL | 1uL |
-
 1. Process standards and samples in batches of ~8 tubes to allow consistent timing.
 1. To each standard tube add:
-
 | Working solution | high or low standard |
 | ---------------- | -------------------- |
 | 190uL | 10uL |
-
 1. Vortex well and let rest for 2 minutes.
 1. Power on the Qubit by pressing ‘Go’
 1. Select ‘dsDNA HS’
 1. Follow the onscreen instructions to calibrate with the standards.
 1. To each sample tube add:
-
 | Working solution | DNA sample (gently pipette mixed) |
 | ---------------- | --------------------------------- |
 | 198uL | 2uL |
-
 1. Vortex well and let rest for 2 minutes.
 1. Follow the onscreen instructions to measure the samples.
     * After reading the first sample, arrow down to tell the machine we want the concentration and give it the amount of sample used (2uL)
