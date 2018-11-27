@@ -19,9 +19,9 @@ Equipment and supplies:
     * One for the low standard
     * One for the high standard
 1. Mix enough working solution for samples, standards, and pipette loss. Vortex well and keep out of light. Per sample:
-  * | Qubit solution | HS Qubit reagent |
-    | -------------- | ---------------- |
-    | 199uL | 1uL |
+  | Qubit solution | HS Qubit reagent |
+  | -------------- | ---------------- |
+  | 199uL | 1uL |
 
 1. Process standards and samples in batches of ~8 tubes to allow consistent timing.
 1. To each standard tube add:
