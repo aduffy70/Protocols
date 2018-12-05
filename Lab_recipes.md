@@ -108,9 +108,11 @@ This recipe yields final concentrations recommended for Qiagen EZ Competent Cell
 
 Shake to mix in Falcon tube. Store in refrigerator.
 
-# 1M HCl from concentrated HCl (37% w/w concentrated HCl is equivalent to ~12M)
+# 1M HCl from concentrated HCl
+
+(37% w/w concentrated HCl is equivalent to ~12M)
 
   * 110mL Water
-  * 10 mL concentrated HCl
+  * 10 mL concentrated 37% w/w HCl
 
 Add the acid to the water---NOT the other way around.
