@@ -63,5 +63,5 @@ Stir on warm hotplate (don't boil) until CTAB is in solution. Store at room temp
 
   * 46.5g EDTA disodium salt dihydrate (ONLY!)
   * 200mL water
-  * pH to 8 with NaOH pellets (will need 2.5-4g.  EDTA will not dissolve until pH is near 8)
+  * pH to 8 with NaOH pellets (will need 2.5--4g.  EDTA will not dissolve until pH is near 8. Even then it takes time---gentle heat may help.)
   * water to 250mL
