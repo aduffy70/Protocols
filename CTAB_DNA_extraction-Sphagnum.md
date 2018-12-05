@@ -61,7 +61,7 @@ Stir on warm hotplate (don't boil) until CTAB is in solution. Sterile filter (0.
 
 ## 0.5M pH8 EDTA:
 
-  * 190.1g EDTA
-  * 750mL water
-  * pH to 8 with NaOH pellets (will need 10-20g.  EDTA will not dissolve until pH is near 8)
-  * water to 1L
+  * 46.5g EDTA disodium salt dihydrate (ONLY!)
+  * 200mL water
+  * pH to 8 with NaOH pellets (will need 2.5-4g.  EDTA will not dissolve until pH is near 8)
+  * water to 250mL
