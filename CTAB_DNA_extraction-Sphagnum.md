@@ -16,6 +16,7 @@ Based on the Shaw Lab protocol (S.B.B 11/15/96) and recommendations from Blanka 
     | -------------------- | ----------------- |
     | 500uL | 1uL |  
 
+1. Turn on water bath (60--65C), and place isopropanol and 70% ethanol in -20C freezer to cool.
 1. Get 0.5--1L of liquid nitrogen, in the blue dewar.
 1. Carry to the Willis lab (French 3332): the liquid nitrogen; a small, shallow cooler; your samples in balanced racks with holey bottoms; the orange autoclave gloves; and a pair of OLD forceps.
 1. In the Willis lab, freeze the tissue by dipping the racked tubes in a cooler containing a small amount of liquid nitrogen (maybe 2 cm in depth). You can hold the rack with the forceps or use the metal centrifuge carrier. Freeze for 5-10 seconds.
