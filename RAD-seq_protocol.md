@@ -5,6 +5,8 @@ categories: protocol
 ---
 By Nicolas Devos, modified for Sphagnum from Parchman, Gompert, Buerkle (U.of Wyoming), ver. 2.3 Aug 2011
 
+# Process
+
 1. DNA extraction
 1. Digestion (EcoRI, MseI)
 1. Ligation (EcoRI adaptors with barcodes, MseI adaptors)
@@ -15,23 +17,20 @@ By Nicolas Devos, modified for Sphagnum from Parchman, Gompert, Buerkle (U.of Wy
 
 We don’t standardize DNA concentrations until after the PCR step – mistake, do it before digestion!
 
-# Digestion
+## Digestion
 
 50 ul reaction. Prepare all on ice. Master mix in tall tube that fits 150 reactions, pipette individually into the plate wells. Prepare master mix of 150% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips.
 
-10 ul DNA (20-50 ng/ul)
-
-1 ul EcoRI
-
-2 ul MseI
-
-5 ul cuttsmart buffer (comes with enzymes)
-
-32 ul dH2O
+In each reaction:
+  * 10 ul DNA (20-50 ng/ul)
+  * 1 ul EcoRI
+  * 2 ul MseI
+  * 5 ul cuttsmart buffer (comes with enzymes)
+  * 32 ul dH2O
 
 Seal the plate, vibrate plate over vortex machine, centrifuge, and incubate in PCR machine for 3 hrs at 37C, then 10min at 65C for permanent inactivation of the enzymes.
 
-#Ligation of adaptors
+## Ligation of adaptors
 
 Prepare the adaptors:
 
@@ -47,51 +46,41 @@ Perform the ligation:
 
 12 ul reaction (once again, prepare mastermix of 130-140% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips).
 
-9 ul of digested DNA
-
-1 ul of EcoRI adaptors (contain barcodes, NOT in master mix!)
-
-Master Mix:
-
-0.2 ul of T4 DNA ligase
-
-1 ul of MseI adaptor
-
-0.12 ul ligase 10x buffer
-
-0.7 ul dH2O
+In each reaction:
+  * 9 ul of digested DNA
+  * 1 ul of EcoRI adaptors (contain barcodes, NOT in master mix!)
+  * 2uL Master Mix:
+    * 0.2 ul of T4 DNA ligase
+    * 1 ul of MseI adaptor
+    * 0.12 ul ligase 10x buffer
+    * 0.7 ul dH2O
 
 Seal the plate, vibrate plate over vortex, centrifuge, and incubate in PCR machine for 1 hrs at 23C.
 
-# PCR on ligated fragments
+## PCR on ligated fragments
 
 Prepare ~110 reactions, calculate Master Mix for 2 tubes, run 2 plates (duplicate, not necessary):
 
-8.07 ul H2O
-
-4 ul 5x buffer
-
-4 ul dNTPs
-
-0.4 ul MgCl2
-
-1.33 ul primer mix (primer1 + primer2)
-
-0.2 ul Taq (iProof)
-
-0.15 ul DMSO
-
-Add  2 ul ligated DNA to the master mix
+In each reaction:
+  * 2uL ligated DNA
+  * 18uL Master Mix:
+    * 8.07 ul H2O
+    * 4 ul 5x buffer
+    * 4 ul dNTPs
+    * 0.4 ul MgCl2
+    * 1.33 ul primer mix (primer1 + primer2)
+    * 0.2 ul Taq (iProof)
+    * 0.15 ul DMSO
 
 20 ul reaction, in PCR machine: 98C for 30 sec, 30 cycles of: 98C for 20sec, 60C for 30sec, 72C for 40sec, final extension at 72C for 10 min.
 
 Pool the PCR product from the 2 plates together, to minimalize stochastic differences in PCR reactions.
 
-# QBIT and pooling of the libraries
+## QBIT and pooling of the libraries
 
 Measure the DNA concentration of the PCR product. We want 10 ng of DNA per sample. Pool volume corresponding to 10 ng from each well (usually 3-7ul).
 
-# Fragment size selection
+## Fragment size selection
 
 AMP beads are used to keep fragments of 350 bp long, see the protocol for library prep from Illumina.
 
@@ -99,7 +88,7 @@ AMP beads are used to keep fragments of 350 bp long, see the protocol for librar
 
 Beads need to be in room temperature, and be vortexed all the time, they settle fast.
 
-Step1
+### Step1
 
 Divide your pooled DNA library into 100 ul batches in 1.5ml Eppendorf tubes (you’ll have 4-5).
 
@@ -113,7 +102,7 @@ Meanwhile, prepare fresh 80% ethanol in 100 ml cylinder (84.2 ml of 190proof eth
 
 Put tubes into the magnetic stand – beads start to accumulate and the liquid is clearing, 5 min. Collect the liquid = transfer 2 x 125 ul of the supernatant without disturbing the beads. Discard tubes with beads and remaining diluted beads.
 
-Step 2
+### Step 2
 
 Vortex beads again for 1 min or until completely dispersed. Add 30 ul of undiluted beads into each tube (containing 250 ul of supernatant). Pipette up and down, and incubate for 5 min away from magnets.
 
@@ -124,3 +113,5 @@ Keep the tubes on the magnetic stand. Add 200 ul of 80% ethanol in each tube wit
 Add 20 ul of DEPC water (or resuspension buffer) to each well, run it over the beads but don’t touch them. Pipette over the beads until they resuspend, and pipette up and down 10 times to mix well. Incubate for 2 min at room temp.
 
 Place tubes on magnetic stand for 5 min. Then carefully transfer 17.5 ul of clear supernatant to labeled tube. Measure concentration on Qubit. Submit for qPCR/bioanalyzer. It may require additional gel cut for better size selection. However, size selecting on gel without the bead cleaning seem to not be sufficient.
+
+# Recipes
