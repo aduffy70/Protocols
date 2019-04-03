@@ -3,36 +3,38 @@ layout: page
 title: RAD-seq library prep
 categories: protocol
 ---
-By Nicolas Devos, modified for Sphagnum from Parchman, Gompert, Buerkle (U.of Wyoming), ver. 2.3 Aug 2011
+Based on Nicolas Devos' modified version of Parchman, Gompert, Buerkle (ver. 2.3 Aug 2011) with additional modification by Blanka Shaw.
 
 # Process
 
-1. DNA extraction
+1. DNA extraction and quantification
 1. Digestion (EcoRI, MseI)
 1. Ligation (EcoRI adaptors with barcodes, MseI adaptors)
-1. PCR on ligated fragments
-1. Qbit and pooling of the libraries of equal concentrations of DNA
-1. Bioanalyzer (sequencing facility)
-1. Fragment size selection using AMP beads
+1. PCR on ligated fragments and quantify PCR products
+1. Pooling equal concentrations of each sample DNA
+1. Fragment size selection of pooled library using AMP beads
+1. Quantify size-selected library and submit for sequencing
 
-We don’t standardize DNA concentrations until after the PCR step – mistake, do it before digestion!
+## DNA extraction and quantification
+
+Extract DNA and quantify with Qubit. Concentrations should be at least 20ng/uL (though lower concentrations can be attempted)
 
 ## Digestion
 
-50 ul reaction. Prepare all on ice. Master mix in tall tube that fits 150 reactions, pipette individually into the plate wells. Prepare master mix of 150% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips.
+25 ul reaction. Prepare all on ice. Master mix in tall tube that fits 120 reactions, pipette individually into the plate wells. Prepare master mix of 120% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips.
 
 In each reaction:
-  * 10 ul DNA (20-50 ng/ul)
-  * 1 ul EcoRI
-  * 2 ul MseI
-  * 5 ul cuttsmart buffer (comes with enzymes)
-  * 32 ul dH2O
+  * DNA + water to equal 200ng in 10uL (20ng/uL)
+  * 0.5 ul EcoRI
+  * 1 ul MseI
+  * 2.55 ul cuttsmart buffer (comes with enzymes)
+  * 11 ul dH2O
 
 Seal the plate, vibrate plate over vortex machine, centrifuge, and incubate in PCR machine for 3 hrs at 37C, then 10min at 65C for permanent inactivation of the enzymes.
 
 ## Ligation of adaptors
 
-Prepare the adaptors:
+### Prepare the adaptors:
 
 Mix 1 ul of each oligo (barcoded EcoRI primers, stored in plates; melt the plates in cold water, otherwise they melt for 2 hrs on air) in a pair into 98 ul of dH2O on a plate (you cannot pipette less than 1 ul. You won’t need the whole 100 ul volume. It results in 1 uM dilutions of the adaptor. These dilutions are probably stable and can be frozen for later use
 
@@ -42,9 +44,9 @@ Incubate both mixtures for 5 min at 95C in PCR machine
 
 Let very slowly cool in covered Styrofoam box to room temperature to obtain double-stranded adaptor stock
 
-Perform the ligation:
+### Perform the ligation:
 
-12 ul reaction (once again, prepare mastermix of 130-140% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips).
+12 ul reaction (once again, prepare mastermix of 120% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips).
 
 In each reaction:
   * 9 ul of digested DNA
@@ -59,26 +61,28 @@ Seal the plate, vibrate plate over vortex, centrifuge, and incubate in PCR machi
 
 ## PCR on ligated fragments
 
-Prepare ~110 reactions, calculate Master Mix for 2 tubes, run 2 plates (duplicate, not necessary):
+Prepare a mastermix of 120% needed volume (or optionally, two master mixes for two plates to reduce stochastic pcr variations):
 
 In each reaction:
   * 2uL ligated DNA
   * 18uL Master Mix:
-    * 8.07 ul H2O
+    * 8 ul H2O
     * 4 ul 5x buffer
     * 4 ul dNTPs
     * 0.4 ul MgCl2
-    * 1.33 ul primer mix (primer1 + primer2)
+    * 1.3 ul primer mix (primer1 + primer2)
     * 0.2 ul Taq (iProof)
     * 0.15 ul DMSO
 
 20 ul reaction, in PCR machine: 98C for 30 sec, 30 cycles of: 98C for 20sec, 60C for 30sec, 72C for 40sec, final extension at 72C for 10 min.
 
-Pool the PCR product from the 2 plates together, to minimalize stochastic differences in PCR reactions.
+If two plates, pool the two PCR products for each sample into one.
 
-## QBIT and pooling of the libraries
+Quantify the DNA with Qubit.
 
-Measure the DNA concentration of the PCR product. We want 10 ng of DNA per sample. Pool volume corresponding to 10 ng from each well (usually 3-7ul).
+## Pooling equal concentrations of each sample DNA
+
+We want 100 ng of DNA per sample. Pool volume corresponding to 100 ng from each well (usually 3-7ul). Lower concentration PCR products can be attempted at risk of reduced reads.
 
 ## Fragment size selection
 
@@ -112,6 +116,10 @@ Keep the tubes on the magnetic stand. Add 200 ul of 80% ethanol in each tube wit
 
 Add 20 ul of DEPC water (or resuspension buffer) to each well, run it over the beads but don’t touch them. Pipette over the beads until they resuspend, and pipette up and down 10 times to mix well. Incubate for 2 min at room temp.
 
-Place tubes on magnetic stand for 5 min. Then carefully transfer 17.5 ul of clear supernatant to labeled tube. Measure concentration on Qubit. Submit for qPCR/bioanalyzer. It may require additional gel cut for better size selection. However, size selecting on gel without the bead cleaning seem to not be sufficient.
+Place tubes on magnetic stand for 5 min. Then carefully transfer 17.5 ul of clear supernatant to labeled tube.
+
+Measure concentration on Qubit.
+
+Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determine if additional size selection or cleaning is necessary and process as needed. It may require additional gel cut for better size selection. However, size selecting on gel without the bead cleaning seem to not be sufficient.
 
 # Recipes
