@@ -24,11 +24,8 @@ Extract DNA and quantify with Qubit. Concentrations should be at least 20ng/uL (
 25 ul reaction. Prepare all on ice. Master mix in tall tube that fits 120 reactions, pipette individually into the plate wells. Prepare master mix of 120% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips.
 
 In each reaction:
-  * DNA + water to equal 200ng in 10uL (20ng/uL)
-  * 0.5 ul EcoRI
-  * 1 ul MseI
-  * 2.55 ul cuttsmart buffer (comes with enzymes)
-  * 11 ul dH2O
+  * DNA + water to equal 200ng in 10 uL (20ng/uL)
+  * 15 uL Digestion Master Mix
 
 Seal the plate, vibrate plate over vortex machine, centrifuge, and incubate in PCR machine for 3 hrs at 37C, then 10min at 65C for permanent inactivation of the enzymes.
 
@@ -46,33 +43,23 @@ Let very slowly cool in covered Styrofoam box to room temperature to obtain doub
 
 ### Perform the ligation:
 
-12 ul reaction (once again, prepare mastermix of 120% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips).
+12 ul reaction (once again, prepare master mix of 120% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips).
 
 In each reaction:
   * 9 ul of digested DNA
   * 1 ul of EcoRI adaptors (contain barcodes, NOT in master mix!)
-  * 2uL Master Mix:
-    * 0.2 ul of T4 DNA ligase
-    * 1 ul of MseI adaptor
-    * 0.12 ul ligase 10x buffer
-    * 0.7 ul dH2O
+  * 2 uL Ligation Master Mix
+
 
 Seal the plate, vibrate plate over vortex, centrifuge, and incubate in PCR machine for 1 hrs at 23C.
 
 ## PCR on ligated fragments
 
-Prepare a mastermix of 120% needed volume (or optionally, two master mixes for two plates to reduce stochastic pcr variations):
+Prepare a master mix of 120% needed volume (or optionally, two master mixes for two plates to reduce stochastic pcr variations):
 
 In each reaction:
   * 2uL ligated DNA
-  * 18uL Master Mix:
-    * 8 ul H2O
-    * 4 ul 5x buffer
-    * 4 ul dNTPs
-    * 0.4 ul MgCl2
-    * 1.3 ul primer mix (primer1 + primer2)
-    * 0.2 ul Taq (iProof)
-    * 0.15 ul DMSO
+  * 18uL PCR Master Mix
 
 20 ul reaction, in PCR machine: 98C for 30 sec, 30 cycles of: 98C for 20sec, 60C for 30sec, 72C for 40sec, final extension at 72C for 10 min.
 
@@ -123,3 +110,33 @@ Measure concentration on Qubit.
 Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determine if additional size selection or cleaning is necessary and process as needed. It may require additional gel cut for better size selection. However, size selecting on gel without the bead cleaning seem to not be sufficient.
 
 # Recipes
+
+## Digestion master mix
+
+|     |    | Per rxn | 48 rxns (+20% = 60) | 96 rxns (+20% = 120) |
+| --- | -- | ------- | ------------------- | -------------------- |
+|EcoRi enzyme | ul | 0.5 | 30 | 60 |
+|MseI enzyme | ul | 1 | 60 | 120 |
+|cutsmart buffer | ul | 2.5 | 150 | 300 |
+|dH2O	| ul | 11 | 660 | 1320 |
+
+## Ligation master mix
+
+|     |    | Per rxn | 48 rxns (+20% = 60) | 96 rxns (+20% = 120) |
+| --- | -- | ------- | ------------------- | -------------------- |
+| T4 ligase enzyme | ul | 0.2 | 12 | 24 |
+| MseI adaptor | ul | 1 | 60 | 120 |
+| ligase 10x buffer | ul | 0.12 | 7.2 | 14.4 |
+| dH2O | ul | 0.7 | 42 | 84 |
+
+## PCR master mix
+
+|     |    | Per rxn | 48 rxns (+20% = 60) | 96 rxns (+20% = 120) |
+| --- | -- | ------- | ------------------- | -------------------- |
+| dH2O | ul | 8 | 480 | 960 |
+| 5x buffer | ul | 4 | 240 | 480 |
+| 1mM dNTPs | ul | 4 | 240 | 480 |
+| MgCl2 | ul | 0.4 | 24 | 48 |
+| Ill PCR 1+2 premix | ul | 1.3 | 79.8 | 159.6 |
+| DMSO | ul | 0.15 | 9 | 18 |
+| iProof Taq | ul | 0.2 | 12 | 24 |
