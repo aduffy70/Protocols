@@ -53,6 +53,8 @@ In each reaction:
 
 Seal the plate, vibrate plate over vortex, centrifuge, and incubate in PCR machine for 1 hrs at 23C.
 
+Dilute each reaction with 88uL water. Store at 4C for a month or -20C for longer.
+
 ## PCR on ligated fragments
 
 Prepare a master mix of 120% needed volume (or optionally, two master mixes for two plates to reduce stochastic pcr variations):
