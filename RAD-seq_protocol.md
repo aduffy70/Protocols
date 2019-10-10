@@ -21,7 +21,7 @@ Extract DNA and quantify with Qubit. Concentrations should be at least 20ng/uL (
 
 ## Digestion
 
-25 ul reaction. Prepare all on ice. Master mix in tall tube that fits 120 reactions, pipette individually into the plate wells. Prepare master mix of 120% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips.
+25 ul reaction. Prepare all on ice. Master mix in 2mL tube that fits 120 reactions, pipette individually into the plate wells. Prepare master mix of 120% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips.
 
 In each reaction:
   * DNA + water to equal 200ng in 10 uL (20ng/uL)
@@ -43,11 +43,11 @@ Let very slowly cool in covered Styrofoam box to room temperature to obtain doub
 
 ### Perform the ligation:
 
-12 ul reaction (once again, prepare master mix of 120% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips).
+12 ul reaction (once again, prepare master mix of 120% needed volume in a 1.5mL tube, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips).
 
 In each reaction:
-  * 9 ul of digested DNA
-  * 1 ul of EcoRI adaptors (contain barcodes, NOT in master mix!)
+  * 9 ul of digested DNA (multipipetter works for this)
+  * 1 ul of EcoRI adaptors (contain barcodes, NOT in master mix!) (multipipetter works)
   * 2 uL Ligation Master Mix
 
 
@@ -57,33 +57,36 @@ Dilute each reaction with 88uL water. Store at 4C for a month or -20C for longer
 
 ## PCR on ligated fragments
 
-Prepare a master mix of 120% needed volume (or optionally, two master mixes for two plates to reduce stochastic pcr variations):
+Prepare a master mix of 120% needed volume in a 5mL tube (or optionally, two master mixes for two plates to reduce stochastic pcr variations):
 
 In each reaction:
-  * 2uL ligated DNA
   * 18uL PCR Master Mix
+  * 2uL ligated DNA (multipipetter works)
+
 
 20 ul reaction, in PCR machine: 98C for 30 sec, 30 cycles of: 98C for 20sec, 60C for 30sec, 72C for 40sec, final extension at 72C for 10 min.
 
 If two plates, pool the two PCR products for each sample into one.
 
-Quantify the DNA with Qubit.
+Quantify the DNA with Qubit. Recent results average ~12.5ng/uL
 
 ## Pooling equal concentrations of each sample DNA
 
-We want 100 ng of DNA per sample. Pool volume corresponding to 100 ng from each well (usually 3-7ul). Lower concentration PCR products can be attempted at risk of reduced reads.
+Take AMP beads and DEPC water out of the fridge now so they have hours to warm to room temperature for the fragment size selection step. Let them warm while pooling samples.  
+
+We want 100 ng of DNA per sample. Pool volume corresponding to 100 ng from each well (usually ~8uL) into a 1.5mL tube. Lower concentration PCR products can be attempted at risk of reduced reads.
 
 ## Fragment size selection
 
 AMP beads are used to keep fragments of 350 bp long, see the protocol for library prep from Illumina.
 
-2 steps: remove larger fragments with diluted beads, then remove small fragments with undiluted beads; it works by changing the ratio of the beads to DNA. For convenience, add water to the pooled sample to have 500 ul total volume of pooled DNAs for size selection (or equivalent of whole 100).
+2 steps: remove larger fragments with diluted beads, then remove small fragments with undiluted beads; it works by changing the ratio of the beads to DNA. For convenience, add water to the pooled sample to have 700 ul total volume of pooled DNAs for size selection (or equivalent of whole 100).
 
 Beads need to be in room temperature, and be vortexed all the time, they settle fast.
 
 ### Step1
 
-Divide your pooled DNA library into 100 ul batches in 1.5ml Eppendorf tubes (you’ll have 4-5).
+Divide your pooled DNA library into 100 ul batches in 1.5ml Eppendorf tubes (you’ll have ~7).
 
 For 350 bp insert size selection, prepare diluted beads solution: 109.25 ul beads + 74.75 ul DEPC water for each 100ul tube (546.25 ul beads + 375.75 ul H2O for 5 tubes). Vortex solution for 5 sec to distribute evenly.
 
@@ -91,7 +94,7 @@ Add 160 ul of diluted beads into each 100 ul sample tube. Pipette up and down 10
 
 Incubate 5 min at room temperature for beads to bind large fragments.
 
-Meanwhile, prepare fresh 80% ethanol in 100 ml cylinder (84.2 ml of 190proof ethanol, fill DEPC water to 100 ml).
+Meanwhile, prepare fresh 80% ethanol in 50 ml cylinder (21 ml of 190proof ethanol, fill DEPC water to 25 ml).
 
 Put tubes into the magnetic stand – beads start to accumulate and the liquid is clearing, 5 min. Collect the liquid = transfer 2 x 125 ul of the supernatant without disturbing the beads. Discard tubes with beads and remaining diluted beads.
 
@@ -107,7 +110,7 @@ Add 20 ul of DEPC water (or resuspension buffer) to each well, run it over the b
 
 Place tubes on magnetic stand for 5 min. Then carefully transfer 17.5 ul of clear supernatant to labeled tube.
 
-Measure concentration on Qubit.
+Measure concentration on Qubit. 3--5ng/uL is typical.
 
 Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determine if additional size selection or cleaning is necessary and process as needed. It may require additional gel cut for better size selection. However, size selecting on gel without the bead cleaning seem to not be sufficient.
 
@@ -117,19 +120,20 @@ Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determ
 
 |     |    | Per rxn | 48 rxns (+20% = 60) | 96 rxns (+20% = 120) |
 | --- | -- | ------- | ------------------- | -------------------- |
-|EcoRi enzyme | ul | 0.5 | 30 | 60 |
-|MseI enzyme | ul | 1 | 60 | 120 |
-|cutsmart buffer | ul | 2.5 | 150 | 300 |
 |dH2O	| ul | 11 | 660 | 1320 |
+|cutsmart buffer | ul | 2.5 | 150 | 300 |
+|MseI enzyme | ul | 1 | 60 | 120 |
+|EcoRi enzyme | ul | 0.5 | 30 | 60 |
+
 
 ## Ligation master mix
 
 |     |    | Per rxn | 48 rxns (+20% = 60) | 96 rxns (+20% = 120) |
 | --- | -- | ------- | ------------------- | -------------------- |
-| T4 ligase enzyme | ul | 0.2 | 12 | 24 |
-| MseI adaptor | ul | 1 | 60 | 120 |
-| ligase 10x buffer | ul | 0.12 | 7.2 | 14.4 |
 | dH2O | ul | 0.7 | 42 | 84 |
+| ligase 10x buffer | ul | 0.12 | 7.2 | 14.4 |
+| MseI adaptor | ul | 1 | 60 | 120 |
+| T4 ligase enzyme | ul | 0.2 | 12 | 24 |
 
 ## PCR master mix
 
