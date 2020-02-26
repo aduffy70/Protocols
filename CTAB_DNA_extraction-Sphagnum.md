@@ -14,7 +14,7 @@ Based on the Shaw Lab protocol (S.B.B 11/15/96) and recommendations from Blanka 
 1. Prepare fresh CTAB isolation buffer by adding B-mercaptoethanol and PVP-40 to 2X stock CTAB buffer. (if necessary warm to get CTAB in solution). Per sample:
   * | 2X stock CTAB buffer | B-mercaptoethanol | PVP-40 |
     | -------------------- | ----------------- | ------ |
-    | 500uL | 1uL | 0.02g |
+    | 500uL | 2uL | 0.02g |
 
 1. Turn on water bath (60--65C), and place isopropanol and 70% ethanol in -20C freezer to cool.
 1. Get 0.5L of liquid nitrogen in the blue dewar.
