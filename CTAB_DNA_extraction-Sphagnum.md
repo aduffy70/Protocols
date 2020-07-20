@@ -16,7 +16,7 @@ Based on the Shaw Lab protocol (S.B.B 11/15/96) and recommendations from Blanka 
 1. Start preparing fresh CTAB isolation buffer. We will add the 2X stock CTAB buffer and PVP-40 now and add the B-mercaptoethanol just before using. Make it in 15uL or 50uL falcon tubes.  Add the PVP-40 first, then the 2X stock CTAB buffer. Mix with a spatula to break up large chunks of PVP-40 and place the tube in the water bath to fully dissolve while grinding tissue. Per sample:
   * | 2X stock CTAB buffer | B-mercaptoethanol | PVP-40 |
     | -------------------- | ----------------- | ------ |
-    | 500uL | 1uL | 0.02g |
+    | 500uL | 2uL | 0.02g |
 
 ## Grinding tissue
 
