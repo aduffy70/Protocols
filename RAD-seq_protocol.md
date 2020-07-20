@@ -3,7 +3,7 @@ layout: page
 title: RAD-seq library prep
 categories: protocol
 ---
-Based on Nicolas Devos' modified version of Parchman, Gompert, Buerkle (ver. 2.3 Aug 2011) with additional modification by Blanka Shaw.
+Based on Nicolas Devos' modified version of Parchman, Gompert, Buerkle (ver. 2.3 Aug 2011) with additional modification by Blanka Aguero.
 
 # Process
 
@@ -31,11 +31,11 @@ Seal the plate, vibrate plate over vortex machine, centrifuge, and incubate in P
 
 ## Ligation of adaptors
 
-### Prepare the adaptors:
+### Prepare the adaptors (if needed--we prepare enough for several libraries at a time):
 
 Mix 1 ul of each oligo (barcoded EcoRI primers, stored in plates; melt the plates in cold water, otherwise they melt for 2 hrs on air) in a pair into 98 ul of dH2O on a plate (you cannot pipette less than 1 ul. You won’t need the whole 100 ul volume. It results in 1 uM dilutions of the adaptor. These dilutions are probably stable and can be frozen for later use
 
-Mix 10 ul of MseI1 and MseI2 oligos (100 ul primer stock) with 80 ul H2O to make 10 uM stock (calculate final volume depending on the number of reactions). This adaptor is the same for each reaction. Sequencing only occurs from the EcoRI side, so there’s no need to barcode the MseI oligos
+In small pcr tubes, mix 14 ul of 100uM MseI1 oligo and 14 uL of 100uM MseI2 oligo with 112 ul H2O to make 10 uM stock. This makes 140uL per tube and we need 120uL for a 96 sample library. This adaptor is the same for each reaction. Sequencing only occurs from the EcoRI side, so there’s no need to barcode the MseI oligos
 
 Incubate both mixtures for 5 min at 95C in PCR machine
 
@@ -47,7 +47,7 @@ Let very slowly cool in covered Styrofoam box to room temperature to obtain doub
 
 In each reaction:
   * 9 ul of digested DNA (multipipetter works for this)
-  * 1 ul of EcoRI adaptors (contain barcodes, NOT in master mix!) (multipipetter works)
+  * 1 ul of EcoRI adaptors (contain barcodes, NOT in master mix! Multipipetter works. Reseal plate with a NEW seal (labelled with number of times thawed) or they will evaporate in the freezer!)
   * 2 uL Ligation Master Mix
 
 
@@ -106,7 +106,7 @@ Place tubes on magnetic stand for 5 min. Then carefully remove 138 ul of superna
 
 Keep the tubes on the magnetic stand. Add 200 ul of 80% ethanol in each tube without disturbing the beads. Incubate 30 sec, then remove. Repeat second time. Remove traces of ethanol with 10 ul pipette. Let the beads dry for about 5 min. Beads should not be shiny (wet) but they also should not crack.
 
-Add 20 ul of DEPC water (or resuspension buffer) to each well, run it over the beads but don’t touch them. Pipette over the beads until they resuspend, and pipette up and down 10 times to mix well. Incubate for 2 min at room temp.
+Still on the magnets, add 20 ul of DEPC water (or resuspension buffer) to each well, run it over the beads but don’t touch them. Pipette over the beads until they resuspend, then remove from the magnet and pipette up and down 10 times to mix well. Incubate away from the magnets for 2 min at room temp.
 
 Place tubes on magnetic stand for 5 min. Then carefully transfer 17.5 ul of clear supernatant to labeled tube.
 
@@ -124,7 +124,6 @@ Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determ
 |cutsmart buffer | ul | 2.5 | 150 | 300 |
 |MseI enzyme | ul | 1 | 60 | 120 |
 |EcoRi enzyme | ul | 0.5 | 30 | 60 |
-
 
 ## Ligation master mix
 
@@ -146,3 +145,5 @@ Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determ
 | Ill PCR 1+2 premix | ul | 1.3 | 79.8 | 159.6 |
 | DMSO | ul | 0.15 | 9 | 18 |
 | iProof Taq | ul | 0.2 | 12 | 24 |
+
+Note: PCR premix is 9uL of 100uM primer1 + 9uL of 100uM primer2 + 162uL water (5uM each primer or 10uM primer total)
