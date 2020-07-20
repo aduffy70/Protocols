@@ -30,7 +30,7 @@ Based on the Shaw Lab protocol (S.B.B 11/15/96) and recommendations from Blanka 
 1. In the Willis lab (French 3332), freeze the tissue by dipping the racked tubes in a cooler containing a small amount of liquid nitrogen (~2 cm in depth). Hold the rack with the forceps. Freeze for 5-10 seconds.
 1. Transfer balanced racks immediately to the Genogrinder and construct the “sandwich” with the top rubber gasket directly against the caps of the tubes (i.e. no box lid!!). Grind at the 1X setting, speed 500 for 1-1/2 minutes. Check that tissue is fully ground--regrind as needed.
 
-# Extracting with CTAB isolation buffer
+## Extracting with CTAB isolation buffer
 
 1. Back in the Shaw lab, in the hood, add B-mercaptoethanol to the warm CTAB buffer+PVP40 to complete the CTAB isolation buffer.
 1. Add 500µl CTAB isolation buffer to each sample.  You can use the 1250 multichannel pipette for this.
