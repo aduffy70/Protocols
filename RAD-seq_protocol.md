@@ -17,15 +17,15 @@ Based on Nicolas Devos' modified version of Parchman, Gompert, Buerkle (ver. 2.3
 
 ## DNA extraction and quantification
 
-Extract DNA and quantify with Qubit. Concentrations should be at least 20ng/uL (though lower concentrations can be attempted)
+Extract DNA and quantify with Qubit HS reagents using 2uL sample. Concentrations should be at least 20ng/uL (though lower concentrations can be attempted).
 
 ## Digestion
 
 25uL reaction. Prepare all on ice. Master mix in 2mL tube that fits 110 reactions, pipette individually into the plate wells. Prepare master mix of 115% needed volume, the enzymes are viscous and large volume is lost by adhesion to the outside of pipette tips.
 
 In each reaction:
-  * DNA + water to equal 200ng in 10 uL (20ng/uL)
-  * 15 uL Digestion Master Mix
+  * DNA + water to equal 200ng in 10uL (20ng/uL)
+  * 15uL Digestion Master Mix
 
 Seal the plate, vibrate plate over vortex machine, centrifuge, and incubate in PCR machine for 3 hrs at 37C, then 10min at 65C for permanent inactivation of the enzymes.
 
@@ -33,13 +33,13 @@ Seal the plate, vibrate plate over vortex machine, centrifuge, and incubate in P
 
 ### Prepare the adaptors (if needed--we prepare enough for several libraries at a time):
 
-Mix 1uL of each oligo (barcoded EcoRI primers, stored in plates; melt the plates in cold water, otherwise they melt for 2 hrs on air) in a pair into 98uL of dH2O on a plate (you cannot pipette less than 1uL. You won’t need the whole 100uL volume. It results in 1 uM dilutions of the adaptor. These dilutions are probably stable and can be frozen for later use
+Mix 1uL of each oligo (barcoded EcoRI primers, stored in plates; melt the plates in cold water, otherwise they melt for 2 hrs on air) in a pair into 98uL of dH2O on a plate (you cannot pipette less than 1uL. You won’t need the whole 100uL volume. It results in 1 uM dilutions of the adaptor. These dilutions are stable and can be frozen for later use.
 
-In small pcr tubes, mix 14uL of 100uM MseI1 oligo and 14 uL of 100uM MseI2 oligo with 112uL H2O to make 10 uM stock. This makes 140uL per tube and we need 120uL for a 96 sample library. This adaptor is the same for each reaction. Sequencing only occurs from the EcoRI side, so there’s no need to barcode the MseI oligos
+In small pcr tubes, mix 14uL of 100uM MseI1 oligo and 14uL of 100uM MseI2 oligo with 112uL H2O to make 10uM stock. This makes 140uL per tube and we need 120uL for a 96 sample library. This adaptor is the same for each reaction. Sequencing only occurs from the EcoRI side, so there’s no need to barcode the MseI oligos.
 
-Incubate both mixtures for 5 min at 95C in PCR machine
+Incubate both mixtures for 5 min at 95C in PCR machine.
 
-Let very slowly cool in covered Styrofoam box to room temperature to obtain double-stranded adaptor stock
+Let very slowly cool in covered Styrofoam box to room temperature to obtain double-stranded adaptor stock.
 
 ### Perform the ligation:
 
@@ -47,8 +47,8 @@ Let very slowly cool in covered Styrofoam box to room temperature to obtain doub
 
 In each reaction:
   * 9uL of digested DNA (multipipetter works for this)
-  * 1uL of EcoRI adaptors (contain barcodes, NOT in master mix! Multipipetter works. Reseal plate with a NEW seal (labelled with number of times thawed) or they will evaporate in the freezer!)
-  * 2 uL Ligation Master Mix
+  * 1uL of EcoRI adaptors (contain barcodes, NOT in master mix! Multipipetter works. Reseal plate with a NEW seal (labeled with number of times thawed) or they will evaporate in the freezer!)
+  * 2uL Ligation Master Mix
 
 
 Seal the plate, vibrate plate over vortex, centrifuge, and incubate in PCR machine for 1 hr at 23C, then 10min at 65C for permanent inactivation of the enzymes.
@@ -57,7 +57,7 @@ Dilute each reaction with 88uL water. Store at 4C for a month or -20C for longer
 
 ## PCR on ligated fragments
 
-Prepare a master mix of 115% needed volume in a 2mL tube (or optionally, two master mixes for two plates to reduce stochastic pcr variations):
+Prepare a master mix of 115% needed volume in a 2mL tube:
 
 In each reaction:
   * 14uL PCR Master Mix
@@ -66,13 +66,11 @@ In each reaction:
 
 20uL reaction, in PCR machine: 98C for 30 sec, 30 cycles of: 98C for 20sec, 60C for 30sec, 72C for 40sec, final extension at 72C for 10 min.
 
-If two plates, pool the two PCR products for each sample into one.
-
-Quantify the DNA with Qubit. Recent results average ~12.5ng/uL
+Quantify the DNA with Qubit HS reagents using 2uL sample. Recent results average ~12.5ng/uL.
 
 ## Pooling equal concentrations of each sample DNA
 
-Take AMP beads and DEPC water out of the fridge now so they have hours to warm to room temperature for the fragment size selection step. Let them warm while pooling samples.  
+Take AMPure beads and DEPC water out of the fridge now so they have hours to warm to room temperature for the fragment size selection step. Let them warm while pooling samples.  
 
 We want to pool an equal amount of DNA per sample. Select an amount that 1) can be met for all (good*) samples using <=18uL (the amount we have left after Qubit), and 2) will yield 1250-1300uL total pool size so we can size-select and clean in 6 batches of 200uL (allowing for pipetting loss). Typical amounts are 150ng-200ng per sample. Calculate the needed volume for each sample and pool into a 1.5mL tube.
 
@@ -152,7 +150,9 @@ Incubate tubes 5 min ON the magnets to accumulate the beads and clear the liquid
 
 Without disturbing the beads, transfer 28uL of the liquid from each tube to a single new 1.5mL tube (2 X 14uL with a 20uL pipetter). This is the finished library with a total volume of approximately 168uL.
 
-Measure concentration on Qubit. Use 10uL of the library to make the measurement to get a more accurate measurement at small concentrations. 3--7ng/uL is typical.
+## Quantify library and submit for sequencing
+
+Measure concentration on Qubit with HS reagents. Use 10uL of the library to make the measurement to get a more accurate measurement at the expected small concentrations. 3--7ng/uL is typical.
 
 Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determine if additional size selection or cleaning is necessary and process as needed.
 
