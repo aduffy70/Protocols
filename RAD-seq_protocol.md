@@ -27,6 +27,15 @@ In each reaction:
   * DNA + water to equal 200ng in 10uL (20ng/uL)
   * 15uL Digestion Master Mix
 
+Digestion master mix:
+
+|     |    | Per rxn | 96 rxns (+15% = 110) |
+| --- | -- | ------- | -------------------- |
+|dH2O	| uL | 11 | 1210 |
+|cutsmart buffer | uL | 2.5 | 275 |
+|MseI enzyme | uL | 1 | 110 |
+|EcoRi enzyme | uL | 0.5 | 55 |
+
 Seal the plate, vibrate plate over vortex machine, centrifuge, and incubate in PCR machine for 3 hrs at 37C, then 10min at 65C for permanent inactivation of the enzymes.
 
 ## Ligation of adaptors
@@ -50,6 +59,15 @@ In each reaction:
   * 1uL of EcoRI adaptors (contain barcodes, NOT in master mix! Multipipetter works. Reseal plate with a NEW seal (labeled with number of times thawed) or they will evaporate in the freezer!)
   * 2uL Ligation Master Mix
 
+Ligation master mix:
+
+|     |    | Per rxn | 96 rxns (+20% = 120) |
+| --- | -- | ------- | -------------------- |
+| dH2O | uL | 0.7 | 84 |
+| ligase 10x buffer | uL | 0.12 | 14.4 |
+| MseI adaptor | uL | 1 | 120 |
+| T4 ligase enzyme | uL | 0.2 | 24 |
+
 
 Seal the plate, vibrate plate over vortex, centrifuge, and incubate in PCR machine for 1 hr at 23C, then 10min at 65C for permanent inactivation of the enzymes.
 
@@ -63,6 +81,19 @@ In each reaction:
   * 14uL PCR Master Mix
   * 6uL ligated DNA (multipipetter works)
 
+PCR master mix:
+
+|     |    | Per rxn | 96 rxns (+15% = 110) |
+| --- | -- | ------- | -------------------- |
+| dH2O | uL | 4 | 440 |
+| 5x buffer | uL | 4 | 440 |
+| 1mM dNTPs | uL | 4 | 440 |
+| MgCl2 | uL | 0.4 | 44 |
+| Ill PCR 1+2 premix | uL | 1.2 | 132 |
+| DMSO | uL | 0.2 | 22 |
+| iProof Taq | uL | 0.2 | 22 |
+
+Note: PCR premix is 9uL of 100uM primer1 + 9uL of 100uM primer2 + 162uL water (5uM each primer or 10uM primer total)
 
 20uL reaction, in PCR machine: 98C for 30 sec, 30 cycles of: 98C for 20sec, 60C for 30sec, 72C for 40sec, final extension at 72C for 10 min.
 
@@ -157,35 +188,3 @@ Measure concentration on Qubit with HS reagents. Use 10uL of the library to make
 Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determine if additional size selection or cleaning is necessary and process as needed.
 
 # Recipes
-
-## Digestion master mix
-
-|     |    | Per rxn | 96 rxns (+15% = 110) |
-| --- | -- | ------- | -------------------- |
-|dH2O	| uL | 11 | 1210 |
-|cutsmart buffer | uL | 2.5 | 275 |
-|MseI enzyme | uL | 1 | 110 |
-|EcoRi enzyme | uL | 0.5 | 55 |
-
-## Ligation master mix
-
-|     |    | Per rxn | 96 rxns (+20% = 120) |
-| --- | -- | ------- | -------------------- |
-| dH2O | uL | 0.7 | 84 |
-| ligase 10x buffer | uL | 0.12 | 14.4 |
-| MseI adaptor | uL | 1 | 120 |
-| T4 ligase enzyme | uL | 0.2 | 24 |
-
-## PCR master mix
-
-|     |    | Per rxn | 96 rxns (+15% = 110) |
-| --- | -- | ------- | -------------------- |
-| dH2O | uL | 4 | 440 |
-| 5x buffer | uL | 4 | 440 |
-| 1mM dNTPs | uL | 4 | 440 |
-| MgCl2 | uL | 0.4 | 44 |
-| Ill PCR 1+2 premix | uL | 1.2 | 132 |
-| DMSO | uL | 0.2 | 22 |
-| iProof Taq | uL | 0.2 | 22 |
-
-Note: PCR premix is 9uL of 100uM primer1 + 9uL of 100uM primer2 + 162uL water (5uM each primer or 10uM primer total)
