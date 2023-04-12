@@ -74,45 +74,87 @@ Quantify the DNA with Qubit. Recent results average ~12.5ng/uL
 
 Take AMP beads and DEPC water out of the fridge now so they have hours to warm to room temperature for the fragment size selection step. Let them warm while pooling samples.  
 
-We want 100 ng of DNA per sample. Pool volume corresponding to 100 ng from each well (usually ~8uL) into a 1.5mL tube. Lower concentration PCR products can be attempted at risk of reduced reads.
+We want to pool an equal amount of DNA per sample. Select an amount that 1) can be met for all (good*) samples using <=18ul (the amount we have left after Qubit), and 2) will yield 1250-1300ul total pool size so we can size-select and clean in 6 batches of 200ul (allowing for pipetting loss). Typical amounts are 150ng-200ng per sample. Calculate the needed volume for each sample and pool into a 1.5mL tube.
+
+*Lower concentration PCR products can be attempted at risk of reduced reads.
 
 ## Fragment size selection
 
-AMP beads are used to keep fragments of 350 bp long, see the protocol for library prep from Illumina.
+AMPure beads in a PEG/salt solution are used to select mid-sized fragments approximately 350 bp long in three steps:
+1) Bind larger DNA fragments to the beads with a 0.6X diluted concentration of PEG/salt and keep the solution containing the small and mid-sized DNA fragments.
+2) Add more AMPure beads stock solution to increase the PEG/salt concentration to 0.8X to bind mid-sized DNA fragments to the beads and discard the solution containing small DNA fragments.
+3) Wash the mid-sized fragments on the beads with 80% EtOH and then elute in a small quantity of DEPC water to get a clean and concentrated final library.
 
-2 steps: remove larger fragments with diluted beads, then remove small fragments with undiluted beads; it works by changing the ratio of the beads to DNA. For convenience, add water to the pooled sample to have 700 ul total volume of pooled DNAs for size selection (or equivalent of whole 100).
+Beads need to be at room temperature and to be vortexed all the time, they settle fast.
 
-Beads need to be in room temperature, and be vortexed all the time, they settle fast.
+### Step 1
 
-### Step1
+Divide the pooled DNA library into 200ul batches in six 1.5ml Eppendorf tubes. Discard any extra or add water to make sure each batch is exactly 200ul.
 
-Divide your pooled DNA library into 100 ul batches in 1.5ml Eppendorf tubes (you’ll have ~7).
+Place the six tubes on the magnetic stand away from the magnets.
 
-For 350 bp insert size selection, prepare diluted beads solution: 109.25 ul beads + 74.75 ul DEPC water for each 100ul tube (546.25 ul beads + 375.75 ul H2O for 5 tubes). Vortex solution for 5 sec to distribute evenly.
+Vortex AMPure beads stock solution for 1 min to mix thoroughly.
 
-Add 160 ul of diluted beads into each 100 ul sample tube. Pipette up and down 10 times or more to mix well.
+In a 2ml tube, prepare enough diluted beads solution for the 6 batches:
 
-Incubate 5 min at room temperature for beads to bind large fragments.
+|     |    | Per batch (+5% extra) | 6 batches (+5% extra) |
+| --- | -- | ------- | -------------------- |
+| AMPure beads stock solution | ul | 200 | 1200 |
+| dH2O | ul | 136 | 816 |
 
-Meanwhile, prepare fresh 80% ethanol in 50 ml cylinder (21 ml of 190proof ethanol, fill DEPC water to 25 ml).
+Vortex diluted beads solution for 5-10s to mix thoroughly.
 
-Put tubes into the magnetic stand – beads start to accumulate and the liquid is clearing, 5 min. Collect the liquid = transfer 2 x 125 ul of the supernatant without disturbing the beads. Discard tubes with beads and remaining diluted beads.
+Add 320 ul of diluted beads solution into each 200 ul sample. Pipette up and down 10 times or more to mix well. Discard any excess diluted beads solution.
+
+Incubate tubes for 5 min AWAY FROM from the magnets.
+
+Meanwhile, prepare fresh 80% ethanol in a 15ml falcon tube: 10.5ml 190proof EtOH + 2000uL DEPC water (room temperature).
+
+__Important-__ EtOH and water are miscible so to get the correct concentration they must be measured separately and then mixed. Don't measure by putting 10.5ml EtOH in a tube and then adding water to a final concentration of 12.5ml. The concentration will be wrong!
+
+Incubate tubes for 5 min ON the magnets to accumulate the beads and clear the liquid.
+
+Without disturbing the beads, collect 500ul of the liquid from each tube and transfer to a new set of six 1.5mL tubes. Use a 200ul pipette to avoid disturbing the beads (4 X 125ul = 500ul). Pipette slowly so liquid has time to settle to the bottom of the tube as you go. Discard the tubes with beads.
 
 ### Step 2
 
-Vortex beads again for 1 min or until completely dispersed. Add 30 ul of undiluted beads into each tube (containing 250 ul of supernatant). Pipette up and down, and incubate for 5 min away from magnets.
+Vortex AMPure bead stock solution again for 1 min.
 
-Place tubes on magnetic stand for 5 min. Then carefully remove 138 ul of supernatant, twice, without disturbing the beads (if little left, it’s fine, it gets washed). This time the DNA is on the beads.
+Add 60 ul of undiluted AMPURE beads stock solution into each 500ul sample. Pipette up and down 10 times or more to mix well.
 
-Keep the tubes on the magnetic stand. Add 200 ul of 80% ethanol in each tube without disturbing the beads. Incubate 30 sec, then remove. Repeat second time. Remove traces of ethanol with 10 ul pipette. Let the beads dry for about 5 min. Beads should not be shiny (wet) but they also should not crack.
+Incubate tubes for 5 min AWAY FROM the magnets.
 
-Still on the magnets, add 20 ul of DEPC water (or resuspension buffer) to each well, run it over the beads but don’t touch them. Pipette over the beads until they resuspend, then remove from the magnet and pipette up and down 10 times to mix well. Incubate away from the magnets for 2 min at room temp.
+Incubate tubes for 5 min ON the magnets to accumulate the beads and clear the liquid.
 
-Place tubes on magnetic stand for 5 min. Then carefully transfer 17.5 ul of clear supernatant to labeled tube.
+Without disturbing the beads, remove and discard the liquid. Use a 200ul pipette to avoid disturbing the beads (3 X 184ul). It is ok if a small amount of liquid remains--it will get cleaned.
 
-Measure concentration on Qubit. 3--5ng/uL is typical.
+Keep the tubes with the beads (and our DNA) ON the magnets.
 
-Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determine if additional size selection or cleaning is necessary and process as needed. It may require additional gel cut for better size selection. However, size selecting on gel without the bead cleaning seem to not be sufficient.
+### Step 3
+
+With the tubes still ON the magnets, add 400 ul of 80% EtOH to each tube without disturbing the beads.
+
+Incubate 30 sec ON the magnets to wash.
+
+Without disturbing the beads, remove the EtOH with a 200ul pipetter (2 X 200ul.
+
+Repeat to wash a second time with 400ul 80% EtOH.
+
+With the tubes still ON the magnets, remove traces of ethanol with a 10 ul pipette.
+
+Let the beads dry for 5 min. Beads should not be shiny (wet) but they also should not crack.
+
+With the tubes still ON the magnets, Add 30 ul of DEPC water to each tube (2 X 15ul with a 20ul pipette). Run the water over the beads but don’t touch them. Pipette over the beads until they resuspend, then remove the tube from the magnet and pipette up and down 10 times to mix well.
+
+Incubate tubes 2 min AWAY FROM the magnets.
+
+Incubate tubes 5 min ON the magnets to accumulate the beads and clear the liquid.
+
+Without disturbing the beads, transfer 28ul of the liquid from each tube to a single new 1.5mL tube (2 X 14ul with a 20ul pipetter). This is the finished library with a total volume of approximately 168ul.
+
+Measure concentration on Qubit. Use 10ul of the library to make the measurement to get a more accurate measurement at small concentrations. 3--7ng/uL is typical.
+
+Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determine if additional size selection or cleaning is necessary and process as needed.
 
 # Recipes
 
