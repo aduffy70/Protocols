@@ -42,13 +42,36 @@ Seal the plate, vibrate plate over vortex machine, centrifuge, and incubate in P
 
 ### Prepare the adaptors (if needed--we prepare enough for several libraries at a time):
 
-Mix 1uL of each oligo (barcoded EcoRI primers, stored in plates; melt the plates in cold water, otherwise they melt for 2 hrs on air) in a pair into 98uL of dH2O on a plate (you cannot pipette less than 1uL. You won’t need the whole 100uL volume. It results in 1 uM dilutions of the adaptor. These dilutions are stable and can be frozen for later use.
+Each adapter comes as two single-stranded oligos and we need to anneal them to each other to form the double-stranded adapters.
 
-In small pcr tubes, mix 14uL of 100uM MseI1 oligo and 14uL of 100uM MseI2 oligo with 112uL H2O to make 10uM stock. This makes 140uL per tube and we need 120uL for a 96 sample library. This adaptor is the same for each reaction. Sequencing only occurs from the EcoRI side, so there’s no need to barcode the MseI oligos.
+#### EcoRI barcoded adapters
 
-Incubate both mixtures for 5 min at 95C in PCR machine.
+Melt the two barcoded EcoRI adapter stock plates in cold water (otherwise they take 2+ hours to thaw).
 
-Let very slowly cool in covered Styrofoam box to room temperature to obtain double-stranded adaptor stock.
+In each well of a new 96 well plate:
+  * 98uL DEPC water (multipipetter works)
+  * 1uL of each of the pair of oligos in the corresponding well of the barcoded adapter stock plates (multipipetter works).
+
+This results in 100uL of 1uM dilutions of the adapter. A plate of diluted adapters is stable stored at -20C for ~10 freeze/thaw cycles or until you notice unequal volumes due to evaporation in the freezer. So making 100uL volume is overkill, but we do it because you cannot pippette less than 1uL of the stocks reliably.
+
+Seal and label plate of diluted adapters and incubate for 5 min at 95C in the thermocycler.
+
+Place in a covered styrofoam box to cool very slowly to room temperature. Store at -20C.
+
+#### MseI adapters (not barcoded)
+
+To make 10uM stock in small pcr tubes:
+  * 112uL DEPC water
+  * 14uL of 100uM MseI1 oligo
+  * 14uL of 100uM MseI2 oligo
+
+This yields 140uL per tube and we need 120uL for a 96 sample library.
+
+incubate for 5 min at 95C in the thermocycler.
+
+Place in a covered styrofoam box to cool very slowly to room temperature.
+
+Let very slowly cool in covered Styrofoam box to room temperature to obtain double-stranded adaptor stock. Store at -20C.
 
 ### Perform the ligation:
 
