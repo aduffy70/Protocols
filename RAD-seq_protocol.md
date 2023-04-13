@@ -199,7 +199,7 @@ Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determ
 ## Sequences for MseI adapters (with Aaron's modifications to better match modern Illumina technologies)
 
 ```
-New MseI-F:      5' T\*ACAGATCGGAAGATCTCGTATGCCGTCTTCTGCTT\*G 3'
+New MseI-F:      5' T*ACAGATCGGAAGATCTCGTATGCCGTCTTCTGCTT*G 3'
 New MseI-R:      5' GCAGAAGACGGCATACGAGATCTTCCGATCTG 3'
 ```
 
@@ -208,8 +208,8 @@ Asterix = Phosphorothioation
 ## Sequences for Illumina PCR primers (with Aaron's modifications to better match modern Illumina technologies)
 
 ```
-Illpcr1 (unchanged):  5' A\*A\*TGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT 3'
-New Illpcr2:          5' C\*AAGCAGAAGACGGCATACGAGATCTTCCGATCTGTAA\*G 3'
+Illpcr1 (unchanged):  5' A*A*TGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT 3'
+New Illpcr2:          5' C*AAGCAGAAGACGGCATACGAGATCTTCCGATCTGTAA*G 3'
 ```
 
 Asterix = Phosphorothioation
