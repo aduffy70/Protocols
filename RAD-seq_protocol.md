@@ -93,7 +93,10 @@ PCR master mix:
 | DMSO | uL | 0.2 | 22 |
 | iProof Taq | uL | 0.2 | 22 |
 
-Note: PCR premix is 9uL of 100uM primer1 + 9uL of 100uM primer2 + 162uL water (5uM each primer or 10uM primer total)
+Note: PCR premix is 5uM each primer or 10uM primer total:
+  * 9uL of 100uM primer1
+  * 9uL of 100uM primer2
+  * 162uL water
 
 20uL reaction, in PCR machine: 98C for 30 sec, 30 cycles of: 98C for 20sec, 60C for 30sec, 72C for 40sec, final extension at 72C for 10 min.
 
@@ -103,7 +106,7 @@ Quantify the DNA with Qubit HS reagents using 2uL sample. Recent results average
 
 Take AMPure beads and DEPC water out of the fridge now so they have hours to warm to room temperature for the fragment size selection step. Let them warm while pooling samples.  
 
-We want to pool an equal amount of DNA per sample. Select an amount that 1) can be met for all (good*) samples using <=18uL (the amount we have left after Qubit), and 2) will yield 1250-1300uL total pool size so we can size-select and clean in 6 batches of 200uL (allowing for pipetting loss). Typical amounts are 150ng-200ng per sample. Calculate the needed volume for each sample and pool into a 1.5mL tube.
+We want to pool an equal amount of DNA per sample. Select an amount that 1) can be met for all (good*) samples using <=18uL (the amount we have left after Qubit), and 2) will yield ~1300uL total pool size so we can size-select and clean in 6 batches of 200uL (allowing for pipetting loss). Typical amounts are 150ng-200ng per sample. Calculate the needed volume for each sample and pool into a 1.5mL tube.
 
 *Lower concentration PCR products can be attempted at risk of reduced reads.
 
@@ -118,15 +121,15 @@ Beads need to be at room temperature and to be vortexed all the time, they settl
 
 ### Step 1
 
-Divide the pooled DNA library into 200uL batches in six 1.5mL Eppendorf tubes. Discard any extra or add water to make sure each batch is exactly 200uL.
+Divide the pooled DNA library into 200uL batches in six 1.5mL Eppendorf tubes. Discard any extra or add water to make sure each tube is exactly 200uL.
 
 Place the six tubes on the magnetic stand away from the magnets.
 
 Vortex AMPure beads stock solution for 1 min to mix thoroughly.
 
-In a 2mL tube, prepare enough diluted beads solution for the 6 batches:
+In a 2mL tube, prepare enough diluted beads solution for the 6 tubes:
 
-|     |    | Per batch (+5% extra) | 6 batches (+5% extra) |
+|     |    | Per tube (+5% extra) | 6 batches (+5% extra) |
 | --- | -- | ------- | -------------------- |
 | AMPure beads stock solution | uL | 200 | 1200 |
 | dH2O | uL | 136 | 816 |
@@ -137,7 +140,9 @@ Add 320 uL of diluted beads solution into each 200 uL sample. Pipette up and dow
 
 Incubate tubes for 5 min AWAY FROM from the magnets.
 
-Meanwhile, prepare fresh 80% ethanol in a 15mL falcon tube: 10.5mL 190proof EtOH + 2000uL DEPC water (room temperature).
+Meanwhile, prepare fresh 80% ethanol in a 15mL falcon tube:
+  * 10.5mL 190proof EtOH
+  * 2000uL DEPC water (room temperature).
 
 __Important-__ EtOH and water are miscible so to get the correct concentration they must be measured separately and then mixed. Don't measure by putting 10.5mL EtOH in a tube and then adding water to a final concentration of 12.5mL. The concentration will be wrong!
 
@@ -169,7 +174,7 @@ Without disturbing the beads, remove the EtOH with a 200uL pipetter (2 X 200uL).
 
 Repeat to wash a second time with 400uL 80% EtOH.
 
-With the tubes still ON the magnets, remove traces of ethanol with a 10uL pipette.
+With the tubes still ON the magnets, remove traces of ethanol with a 20uL pipette.
 
 Let the beads dry for 5 min. Beads should not be shiny (wet) but they also should not crack.
 
@@ -181,6 +186,8 @@ Incubate tubes 5 min ON the magnets to accumulate the beads and clear the liquid
 
 Without disturbing the beads, transfer 28uL of the liquid from each tube to a single new 1.5mL tube (2 X 14uL with a 20uL pipetter). This is the finished library with a total volume of approximately 168uL.
 
+Discard the tubes with the beads.
+
 ## Quantify library and submit for sequencing
 
 Measure concentration on Qubit with HS reagents. Use 10uL of the library to make the measurement to get a more accurate measurement at the expected small concentrations. 3--7ng/uL is typical.
@@ -188,3 +195,17 @@ Measure concentration on Qubit with HS reagents. Use 10uL of the library to make
 Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determine if additional size selection or cleaning is necessary and process as needed.
 
 # Recipes
+
+## Sequences for MseI adapters (with Aaron's modifications to better match modern Illumina technologies)
+
+New MseI-F:      5' T*ACAGATCGGAAGATCTCGTATGCCGTCTTCTGCTT*G 3'
+New MseI-R:      5' GCAGAAGACGGCATACGAGATCTTCCGATCTG 3'
+
+Asterix = Phosphorothioation
+
+## Sequences for Illumina PCR primers (with Aaron's modifications to better match modern Illumina technologies)
+
+Illpcr1 (unchanged):  5' A*A*TGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT 3'
+New Illpcr2:          5' C*AAGCAGAAGACGGCATACGAGATCTTCCGATCTGTAA*G 3'
+
+Asterix = Phosphorothioation
