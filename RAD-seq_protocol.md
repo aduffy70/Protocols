@@ -129,7 +129,7 @@ Vortex AMPure beads stock solution for 1 min to mix thoroughly.
 
 In a 2mL tube, prepare enough diluted beads solution for the 6 tubes:
 
-|     |    | Per tube (+5% extra) | 6 batches (+5% extra) |
+|     |    | Per tube (+5% extra) | 6 tubes (+5% extra) |
 | --- | -- | ------- | -------------------- |
 | AMPure beads stock solution | uL | 200 | 1200 |
 | dH2O | uL | 136 | 816 |
@@ -198,14 +198,16 @@ Submit for sequencing. The sequencing center will use qPCR/bioanalyzer to determ
 
 ## Sequences for MseI adapters (with Aaron's modifications to better match modern Illumina technologies)
 
-New MseI-F:      5' T*ACAGATCGGAAGATCTCGTATGCCGTCTTCTGCTT*G 3'
+New MseI-F:      5' T\*ACAGATCGGAAGATCTCGTATGCCGTCTTCTGCTT\*G 3'
+
 New MseI-R:      5' GCAGAAGACGGCATACGAGATCTTCCGATCTG 3'
 
 Asterix = Phosphorothioation
 
 ## Sequences for Illumina PCR primers (with Aaron's modifications to better match modern Illumina technologies)
 
-Illpcr1 (unchanged):  5' A*A*TGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT 3'
-New Illpcr2:          5' C*AAGCAGAAGACGGCATACGAGATCTTCCGATCTGTAA*G 3'
+Illpcr1 (unchanged):  5' A\*A\*TGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT 3'
+
+New Illpcr2:          5' C\*AAGCAGAAGACGGCATACGAGATCTTCCGATCTGTAA\*G 3'
 
 Asterix = Phosphorothioation
