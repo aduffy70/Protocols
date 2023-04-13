@@ -69,9 +69,7 @@ This yields 140uL per tube and we need 120uL for a 96 sample library.
 
 incubate for 5 min at 95C in the thermocycler.
 
-Place in a covered styrofoam box to cool very slowly to room temperature.
-
-Let very slowly cool in covered Styrofoam box to room temperature to obtain double-stranded adaptor stock. Store at -20C.
+Place in a covered styrofoam box to cool very slowly to room temperature. Store at -20C.
 
 ### Perform the ligation:
 
