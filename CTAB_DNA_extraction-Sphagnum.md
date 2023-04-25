@@ -13,10 +13,13 @@ Based on the Shaw Lab protocol (S.B.B 11/15/96) and recommendations from Blanka 
 1. Add 2 stainless steel ball bearings to each racked 1.2ml “collection” tube.
 1. Sample a small amount of the capitulum into tubes, pushing the tissue into the bottom of the tube. Save the remainder of the plant in a mini-packet and leave with the herbarium specimen as a voucher.
 1. Turn on water bath (60--65C), and place isopropanol and 70% ethanol in -20C freezer to cool.
-1. Start preparing fresh CTAB isolation buffer. We will add the 2X stock CTAB buffer and PVP-40 now and add the B-mercaptoethanol just before using. Make it in 15uL or 50uL falcon tubes.  Add the PVP-40 first, then the 2X stock CTAB buffer. Mix with a spatula to break up large chunks of PVP-40 and place the tube in the water bath to fully dissolve while grinding tissue. Per sample:
-  * | 2X stock CTAB buffer | B-mercaptoethanol | PVP-40 |
-    | -------------------- | ----------------- | ------ |
-    | 500uL | 2uL | 0.02g |
+1. Start preparing fresh CTAB isolation buffer. We will add the 2X stock CTAB buffer and PVP-40 now and add the B-mercaptoethanol just before using. Make it in 15uL or 50uL falcon tubes.  Add the PVP-40 first, then the 2X stock CTAB buffer. Mix with a spatula to break up large chunks of PVP-40 and place the tube in the water bath to fully dissolve while grinding tissue. Make enough extra to allow using the multipipetter:
+  * | Reagent | per tube | per 48 samples (+6 extra) | per 96 samples (+12 extra) |
+    | ------- | -------- | ------------------------- | -------------------------- |
+    | 2X stock CTAB buffer | 500uL | 27mL | 54uL |
+    | PVP-40 | 0.02g | 1.08g | 2.16g |
+    | B-mercaptoethanol | 2uL | 108uL | 216uL |
+
 
 ## Grinding tissue
 
@@ -31,12 +34,12 @@ Based on the Shaw Lab protocol (S.B.B 11/15/96) and recommendations from Blanka 
 1. Transfer balanced racks immediately to the Genogrinder and construct the “sandwich” with the top rubber gasket directly against the caps of the tubes (i.e. no box lid!!). Grind at the 1X setting, speed 500 for 1-1/2 minutes. Check that tissue is fully ground--regrind as needed.
 
 ## Extracting with CTAB isolation buffer
-
 1. Back in the Shaw lab, in the hood, add B-mercaptoethanol to the warm CTAB buffer+PVP40 to complete the CTAB isolation buffer.
 1. Add 500µl CTAB isolation buffer to each sample.  You can use the 1250 multichannel pipette for this.
 1. Hold caps closed and vortex well to get the powdered tissue mixed with the extraction buffer. Incubate the crude extract in a 60C water bath for 60 min.  Place weighted lid on top of capped tubes to prevent opening during the incubation. Hold caps closed and gently mix by inverting every 20-30 minutes during the incubation.
-1. During the 60 min incubation, prepare 200uL wide-cut tips and label a new set of collection tubes.
+1. During the 60 min incubation, prepare 200uL wide-cut tips, label a new set of collection tubes, and prepare 24:1 Chloroform:Isoamyl alcohol.
 1. Remove tubes from hot water bath without dislodging the weight holding the caps on. Blot any moisture from the tops of the tubes.
+1. Turn off hot water bath.
 
 ## Removal of proteins with chloroform:isoamyl alcohol
 
