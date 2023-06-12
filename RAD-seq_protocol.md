@@ -77,7 +77,7 @@ Place in a covered styrofoam box to cool very slowly to room temperature. Store 
 
 In each reaction:
   * 9uL of digested DNA (multipipetter works for this)
-  * 1uL of EcoRI adaptors (contain barcodes, NOT in master mix! Multipipetter works. Reseal plate with a NEW seal (labeled with number of times thawed) or they will evaporate in the freezer!)
+  * 1uL of 1uM EcoRI adaptors (contain barcodes, NOT in master mix! Multipipetter works. Reseal plate with a NEW seal (labeled with number of times thawed) or they will evaporate in the freezer!)
   * 2uL Ligation Master Mix
 
 Ligation master mix:
