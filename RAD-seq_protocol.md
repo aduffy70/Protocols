@@ -119,8 +119,8 @@ Note: PCR premix is 5uM each primer or 10uM primer total:
   * 9uL of 100uM primer2
   * 162uL water
 
-Note: dNTP mix is 10mM each dNTP:
-  * 5uL of each 100mM dNTP stock (20uM total)
+Note: dNTP mix is 1mM each dNTP:
+  * 5uL of each 100mM dNTP stock (20uL total)
   * 480uL water
 
 20uL reaction, in PCR machine: 98C for 30 sec, 30 cycles of: 98C for 20sec, 60C for 30sec, 72C for 40sec, final extension at 72C for 10 min.
