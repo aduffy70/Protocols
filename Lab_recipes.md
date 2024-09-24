@@ -48,6 +48,20 @@ Load: 25uL sample + 1uL loading dye or 50uL sample + 2uL loading dye. (5uL ladde
 
 Run: 2.5-3 hours @ 50V (start with fresh well buffer)
 
+# Agarose gel for midigels (12x14cm) for sex barcoding
+For 3% agarose, 1X SB gels (enough for 1 gel):
+
+  * 3.9g agarose
+  * 130mL 1X SB buffer
+
+Microwave at 30% power, swirling every 30-60sec until agarose dissolves completely. Allow to cool 2-3 minutes
+
+Add 8.0uL Sybr Safe, swirl gently to thoroughly mix, and pour gel.
+
+Load: 5uL sample (+1uL loading gel if not included in pcr mix) or ladder per well.
+
+Run: ~60 minutes @ 95V
+
 # Ampicillin stock solution for TA cloning
 For 100mg/mL solution:
 
