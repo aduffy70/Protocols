@@ -6,7 +6,7 @@ layout: default
   {% for p in site.pages %}
     {% if p.categories contains 'protocol' %}
       <li>
-        <a href="{{ site.base_url }}{{ p.url }}">
+        <a href="{{ site.baseurl }}{{ p.url }}">
           <h3>{{ p.title }}</h3>
         </a>
       </li>

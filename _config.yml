@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Protocols
 description: Lab protocols and recipes
-base_url: "/Protocols" # the subpath of your site, e.g. /blog
-image_path: "/assets/"
+baseurl: "/Protocols" # the subpath of your site, e.g. /blog
+image_path: "/Protocols/assets/"
 
 # Build settings
 markdown: kramdown
